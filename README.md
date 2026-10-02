@@ -28,8 +28,8 @@ They connect through G-HUB.
               ┌───────────────────────┼───────────────────────┐
               │                       │                       │
               ▼                       ▼                       ▼
-     Cascadeur / GHEC         Unity / GHEU     Blender / GHEB
-                                                  (Coming Soon)
+     Cascadeur / GHEC         Unity / GHEU            Blender / GHEB
+                                                       (Coming Soon)
               ▲                       ▲                       ▲
               │                       │                       │
               └────────────── ShapeMixer Entangle ────────────┘

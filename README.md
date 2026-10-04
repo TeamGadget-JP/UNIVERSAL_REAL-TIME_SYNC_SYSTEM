@@ -91,6 +91,8 @@ Unity / GHEU
 
 Real-time body and facial synchronization can also run through the same G-HUB session.
 
+For Offline Facial Bake, source and destination frame rates do not need to match. GHEU preserves canonical time and resolves each output frame against the corresponding SE source time.
+
 ---
 
 ## Blender Workflow — Coming Soon
@@ -175,10 +177,13 @@ GHEU connects Unity to G-HUB and provides:
 - GHEU Offline Facial Bake
 - FBX Bridge body-animation transfer
 
-Validated Unity range for GHEU v1.0:
+Supported Unity version for GHEU v1.0:
 
-- **Unity 6.3 LTS – 6.6**
+- **Unity 6.3 LTS**
 - Windows 64-bit
+- Release package: `GHEU_v1.0_6.3LTS.unitypackage`
+
+GHEU v1.0 is developed and validated specifically for Unity 6.3 LTS. Other Unity versions are not officially supported by this release.
 
 Documentation:
 
@@ -349,7 +354,7 @@ UNIVERSAL_REAL-TIME_SYNC_SYSTEM/
    │
    └─ se/
       ├─ images/
-      ├─ LICENSE.txt
+      ├─ LICENSE
       └─ README.md
 ```
 

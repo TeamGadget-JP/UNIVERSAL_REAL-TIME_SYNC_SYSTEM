@@ -51,9 +51,7 @@ The current v1.0 suite provides:
 ---
 
 ## Unity Workflow
-```text
 Release Version V1.0 – Launch Date: October 4, 2026
-```
 
 The Unity workflow combines:
 

@@ -60,7 +60,6 @@ The Unity workflow combines:
 - **GHEU** as the Unity endpoint
 
 ![TeamGadget Unity Workflow](docs/images/unity_workflow.png)
-![TeamGadget Unity Workflow](docs/images/unity_workflow2.png)
 
 For Unity production workflows:
 

@@ -91,7 +91,7 @@ SE v1.0 is distributed as a portable ZIP archive:
 ShapeMixer_Entangle_v1.0_Windows_x64.zip
 ```
 
-Extract the archive to a writable folder and keep all included files together.
+The release ZIP includes the applicable TeamGadget license. Extract the archive to a writable folder and keep all included files together.
 
 The SE source code is not part of the public binary distribution.
 
@@ -518,6 +518,10 @@ SE displays a waveform in the Timeline and supports audio controls including:
 - mute
 - solo
 - playback synchronized to the Timeline
+- local scrub preview
+- reference-audio playback while following another G-HUB Timeline owner
+
+When another supported endpoint owns the canonical Timeline, SE remains a passive Timeline follower while its reference audio follows remote play / pause and scrub / seek state.
 
 Audio files are referenced by the project; the source audio file itself is not embedded into the `.sme` project file.
 
@@ -574,6 +578,8 @@ When Timeline Sync is enabled, supported state can include:
 
 SE can act as the active timeline owner or follow timeline state received through G-HUB.
 
+When SE follows another endpoint, it does not run a second competing Timeline clock. Canonical Timeline state remains authoritative, while reference audio follows the received playback and scrub state.
+
 Timeline synchronization remains independent from live facial UDP output.
 
 ---
@@ -611,7 +617,9 @@ BlendShape AnimationClip
 
 Offline Facial Bake is initiated from GHEU.
 
-SE automatically responds to the routed Bake request for the corresponding Character Slot, evaluates the SE Timeline at the requested frames, and returns the authored Shape Key values through G-HUB.
+SE automatically responds to the routed Bake request for the corresponding Character Slot, evaluates the SE Timeline at the requested canonical time, and returns the authored Shape Key values through G-HUB.
+
+Source and destination frame rates do not need to match. When GHEU uses a different Bake FPS from the SE Timeline FPS, SE resolves the requested canonical time to the corresponding local SE frame before evaluating the facial animation.
 
 The final Unity result is a **BlendShape-only AnimationClip**.
 
@@ -697,7 +705,7 @@ Check that:
 
 ShapeMixer Entangle is distributed as proprietary TeamGadget software.
 
-The binary distribution is governed by the license / EULA included with the release.
+The binary distribution is governed by the `LICENSE` file included with the release ZIP.
 
 Third-party software components remain subject to their own license terms.
 

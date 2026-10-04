@@ -51,22 +51,18 @@ This includes non-humanoid bone-driven characters where the connected character 
 
 ## Development / Tested Environment
 
-GHEU v1.0 was developed and validated in the following Unity 6 range:
+GHEU v1.0 is developed and validated specifically for:
 
-- **Unity 6.3 LTS – 6.6**
-- Windows 64-bit
-
-Validated editor versions include:
-
+- **Unity 6.3 LTS**
 - **Unity 6000.3.8f1**
-- **Unity 6000.6.0f1**
+- Windows 64-bit
 
 Related TeamGadget environment used during validation:
 
 - **G-HUB v1.0**
 - **Cascadeur 2026.2.2 — Windows 64-bit**
 
-> Versions outside the tested Unity 6.3 LTS – 6.6 range are not guaranteed by GHEU v1.0.
+> GHEU v1.0 officially supports Unity 6.3 LTS. Other Unity versions are not officially supported by this release.
 
 ---
 
@@ -75,7 +71,7 @@ Related TeamGadget environment used during validation:
 GHEU v1.0 is distributed as a Unity package:
 
 ```text
-GHEU_v1.0_6.3LTS-6.6.unitypackage
+GHEU_v1.0_6.3LTS.unitypackage
 ```
 
 Import the package into the Unity project that will receive synchronization data.
@@ -89,7 +85,7 @@ Import the package into the Unity project that will receive synchronization data
 Import:
 
 ```text
-GHEU_v1.0_6.3LTS-6.6.unitypackage
+GHEU_v1.0_6.3LTS.unitypackage
 ```
 
 into your Unity project.
@@ -876,7 +872,19 @@ Last frame included in the facial bake.
 
 ### Bake Fps
 
-Frame rate used for the bake.
+Destination / output frame rate used for the generated facial `AnimationClip`.
+
+The SE source Timeline may use a different frame rate. GHEU synchronizes Offline Facial Bake by canonical time rather than by assuming identical source and destination frame numbers.
+
+For example:
+
+```text
+Unity Bake Output: 24 FPS
+SE Timeline:       60 FPS
+
+Unity 24F = 1.0 second
+SE    60F = 1.0 second
+```
 
 ### Bake Interval
 
@@ -907,6 +915,7 @@ Operational rules:
 - each character receives an independent **BlendShape-only AnimationClip**
 - only shape keys present in the incoming bake stream are included
 - body animation is handled separately by the **FBX Bridge**
+- source and output FPS may differ; canonical time is preserved during bake
 
 This separation keeps body and facial animation assets independent.
 

@@ -123,7 +123,7 @@ ShapeMixerEntangle.exe
 2. Launch **ShapeMixer Entangle**.
 3. Import an FBX or glTF character asset with Shape Keys / morph targets.
 4. Select the Character Slot you want to edit in the **EDIT** panel.
-5. Assign Shape Keys to XY-pad directions or **ADDITIONAL** controls.
+5. **Right-drag** Shape Keys from the Shape Key list and drop them onto XY-pad directions, **ADDITIONAL**, or the Timeline as required.
 6. Create animation keys or presets as required.
 7. Enable the intended Character Slot in the **SYNC** panel.
 8. Press **UDP: OFF** to switch live Shape Key publishing to **ON**.
@@ -249,6 +249,28 @@ Shape Keys can be used in three main ways:
 
 Shape Key values are evaluated together to produce the final facial state.
 
+## Assigning Shape Keys
+
+Shape Key assignments are created with **right mouse drag-and-drop** from the Shape Key list.
+
+Basic workflow:
+
+1. Select the Character Slot you want to edit in the **EDIT** panel.
+2. Find the required Shape Key in the list on the left side of SE.
+3. Hold the **right mouse button** and drag the Shape Key name.
+4. Drop it onto the required destination:
+   - an XY-pad direction
+   - the **ADDITIONAL** area
+   - the Timeline area for direct Shape Key animation
+
+> Shape Key assignment uses **right-drag**, not a normal left-button drag.
+
+Assignments belong to the currently active **EDIT** Character Slot. Because each Character Slot keeps its own authoring data, confirm the intended EDIT Character before assigning controls or Timeline tracks.
+
+Assigning a Shape Key to an authoring control does not by itself enable live output. Live routing is controlled separately by the **SYNC** Character selection and `UDP: ON`.
+
+For XY-pad assignments, multiple Shape Keys can share the same direction. Each assignment can then be adjusted independently with its Enable, INV, and Multiplier controls.
+
 ---
 
 # XY Pad
@@ -269,11 +291,15 @@ DOWN-RIGHT
 ADDITIONAL
 ```
 
-Drag Shape Keys from the Shape Key list into the required zone.
+**Right-drag** Shape Keys from the Shape Key list and drop them into the required zone.
 
 Multiple Shape Keys can be assigned to the same direction.
 
 The pad combines the assigned Shape Keys according to the puck position and assignment settings.
+
+The **XY pad itself can also be assigned to the Timeline**. To do this, place the mouse over the XY control area, then **right-drag the XY area and drop it into the Timeline**.
+
+This creates an XY-pad animation track for the active **EDIT** Character context. The pad movement can then be keyed over time and refined in the Bezier Curve Editor through its corresponding child curves.
 
 ---
 
@@ -348,6 +374,28 @@ The Timeline supports:
 The current facial result is evaluated from the Timeline and the active Character Slot's authoring data.
 
 The Timeline area is designed as the main animation workspace. From here you can switch Takes, choose the track to edit, preview waveform timing, move through keys, and open graph-editing operations without leaving the current Character Slot.
+
+## Assigning Controls to the Timeline
+
+SE supports direct Timeline assignment for both individual Shape Keys and complete XY pads.
+
+### Shape Key Track
+
+To animate a Shape Key directly, **right-drag** the Shape Key from the list on the left and drop it into the Timeline area.
+
+This creates a direct Shape Key animation track for the active **EDIT** Character context. The track can then be keyed from the Timeline and refined in the Bezier Curve Editor.
+
+Use direct Shape Key assignment when you want to animate an individual facial target without first routing it through an XY-pad direction or **ADDITIONAL** control.
+
+### XY-Pad Track
+
+To animate an XY pad as a control, place the mouse over the **XY control area itself**, then **right-drag the XY area and drop it into the Timeline**.
+
+This creates an XY-pad animation track for the active **EDIT** Character context. The pad's X/Y motion can then be animated over time, allowing all Shape Keys assigned to that pad to follow the authored pad movement together.
+
+The resulting XY-pad curves can be refined in the Bezier Curve Editor just like other Timeline animation data.
+
+> Timeline assignment also uses **right-drag**. Dragging the XY pad means grabbing the XY control area itself, not one of the individual Shape Key assignment labels around the pad.
 
 ## Timeline Head / Ruler Operations
 

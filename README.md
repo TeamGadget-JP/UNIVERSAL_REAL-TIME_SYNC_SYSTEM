@@ -51,7 +51,7 @@ The current v1.0 suite provides:
 ---
 
 ## Unity Workflow
-> **Release Version V1.0 – Launch Date: October 4, 2026**
+> **Release Version v1.0 – Launch Date: October 4, 2026**
 
 The Unity workflow combines:
 
@@ -97,8 +97,7 @@ For Offline Facial Bake, source and destination frame rates do not need to match
 ---
 
 ## Blender Workflow
-> **Release Version V1.0 – Launch Date: October 4, 2026**
-> **GHEB v1.0 — Blender 5.2 LTS**
+> **Release Version v1.0 – Launch Date: October 7, 2026**
 
 The Blender workflow combines:
 

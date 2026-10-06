@@ -90,7 +90,7 @@ Related TeamGadget components used with the v1.0 workflow include:
 The recommended release package name is:
 
 ```text
-GHEB_v1.0_Blender5.2LTS.zip
+GHEB_v1_0_Blender5_2LTS.zip
 ```
 
 The installed Python package folder remains:
@@ -112,7 +112,7 @@ Blender loads the add-on as a Python package, and the internal package name shou
 1. Download:
 
 ```text
-GHEB_v1.0_Blender5.2LTS.zip
+GHEB_v1_0_Blender5_2LTS.zip
 ```
 
 2. Open **Blender 5.2 LTS**.

@@ -29,7 +29,6 @@ They connect through G-HUB.
               │                       │                       │
               ▼                       ▼                       ▼
      Cascadeur / GHEC         Unity / GHEU            Blender / GHEB
-                                                       (Coming Soon)
               ▲                       ▲                       ▲
               │                       │                       │
               └────────────── ShapeMixer Entangle ────────────┘
@@ -44,7 +43,8 @@ The current v1.0 suite provides:
 - centralized route management
 - canonical timeline synchronization
 - Rig-Agnostic / Smart Swizzle workflows for supported body endpoints
-- offline facial animation bake for Unity
+- offline facial animation bake for Unity and Blender
+- offline body-animation bake directly to Blender Actions
 - FBX Bridge body-animation transfer for Unity
 - a dedicated facial-animation authoring environment through ShapeMixer Entangle
 
@@ -96,11 +96,50 @@ For Offline Facial Bake, source and destination frame rates do not need to match
 
 ---
 
-## Blender Workflow — Coming Soon
+## Blender Workflow
 
-> **GHEB is currently in dogfooding / final verification and is not yet part of the public v1.0 release.**
+> **GHEB v1.0 — Blender 5.2 LTS**
+
+The Blender workflow combines:
+
+- **Cascadeur + GHEC** for body animation
+- **ShapeMixer Entangle** for facial / Shape Key animation
+- **G-HUB** for routing and canonical synchronization
+- **GHEB** as the Blender endpoint
 
 ![TeamGadget Blender Workflow](docs/images/blender_workflow.png)
+
+For Blender production workflows:
+
+```text
+Body
+Cascadeur / GHEC
+      │
+      ▼
+    G-HUB
+      │
+      ▼
+Blender / GHEB
+      │
+      └── Offline Body Bake → Blender Armature Action
+```
+
+```text
+Facial
+ShapeMixer Entangle
+      │
+      ▼
+    G-HUB
+      │
+      ▼
+Blender / GHEB
+      │
+      └── Offline Facial Bake → Blender Shape Key Action
+```
+
+Real-time body and facial synchronization can run simultaneously through the same GHEB endpoint.
+
+For Offline Bake, source and destination frame rates do not need to match. GHEB preserves canonical time and resolves each Blender output frame against the corresponding routed source time.
 
 ---
 
@@ -112,7 +151,7 @@ For Offline Facial Bake, source and destination frame rates do not need to match
 | **GHEC** | Cascadeur endpoint | Mixed distribution: open-source files + compiled protected backend |
 | **GHEU** | Unity endpoint | Open source + Unity package |
 | **ShapeMixer Entangle (SE)** | Facial / Shape Key authoring and synchronization | Prebuilt Windows x64 application |
-| **GHEB** | Blender endpoint | **Coming Soon** — currently in dogfooding / final verification |
+| **GHEB** | Blender endpoint | Open-source Blender add-on |
 | **GHEG** | Godot endpoint | Planned |
 
 ---
@@ -192,6 +231,38 @@ Documentation:
 
 ---
 
+### GHEB v1.0
+
+**G-HUB Entangle for Blender**
+
+GHEB connects Blender to G-HUB and provides:
+
+- real-time body synchronization
+- real-time facial / Shape Key synchronization
+- up to 5 Character Slots
+- simultaneous Body + Facial synchronization
+- Rig-Agnostic / Smart Swizzle body workflows
+- floating Smart Swizzle diagnostics
+- optional Body Interpolation
+- canonical timeline synchronization
+- offline Body Bake to Blender Armature Actions
+- multi-mesh facial synchronization and bake
+- multi-character Facial Bake
+
+Supported Blender version for GHEB v1.0:
+
+- **Blender 5.2 LTS**
+- Windows 64-bit
+- Release package: `GHEB_v1_0_Blender5_2LTS.zip`
+
+GHEB v1.0 is developed and validated specifically for Blender 5.2 LTS. Other Blender versions are not officially supported by this release.
+
+Documentation:
+
+[`docs/gheb/README.md`](docs/gheb/README.md)
+
+---
+
 ### ShapeMixer Entangle v1.0
 
 **Facial / Shape Key Authoring Endpoint**
@@ -236,10 +307,11 @@ Matching endpoints use the same logical Character Slot while G-HUB handles the a
 
 ## Canonical Timeline Synchronization
 
-G-HUB provides **full bidirectional timeline synchronization** between the three current production endpoints:
+G-HUB provides **full bidirectional timeline synchronization** between the current production endpoints:
 
 - **Cascadeur / GHEC**
 - **Unity / GHEU**
+- **Blender / GHEB**
 - **ShapeMixer Entangle / SE**
 
 Any participating endpoint can drive the timeline, and the other connected endpoints follow the same canonical playback state through G-HUB.
@@ -273,9 +345,9 @@ For example:
 
 The visible frame numbers can therefore differ while the animation time remains synchronized.
 
-This allows Cascadeur, Unity, and ShapeMixer Entangle to stay fully synchronized even when their local FPS settings are different.
+This allows Cascadeur, Unity, Blender, and ShapeMixer Entangle to stay fully synchronized even when their local FPS settings are different.
 
-Timeline synchronization is bidirectional: play, pause, stop, scrub / seek, range changes, and timeline position can be propagated through G-HUB so all three endpoints remain aligned.
+Timeline synchronization is bidirectional: play, pause, stop, scrub / seek, range changes, and timeline position can be propagated through G-HUB so participating endpoints remain aligned.
 
 ---
 
@@ -308,6 +380,11 @@ For Unity v1.0:
 - **Body asset:** FBX Bridge
 - **Facial asset:** SE → G-HUB → GHEU Offline Facial Bake
 
+For Blender v1.0:
+
+- **Body asset:** GHEC → G-HUB → GHEB Offline Body Bake → Armature Action
+- **Facial asset:** SE → G-HUB → GHEB Offline Facial Bake → Shape Key Action
+
 ---
 
 ## Downloads
@@ -323,6 +400,7 @@ g-hub-v1.0.0
 ghec-v1.0.0
 gheu-v1.0.0
 se-v1.0.0
+gheb-v1.0.0
 ```
 
 ---
@@ -349,6 +427,11 @@ UNIVERSAL_REAL-TIME_SYNC_SYSTEM/
    │  └─ README.md
    │
    ├─ gheu/
+   │  ├─ images/
+   │  ├─ LICENSE
+   │  └─ README.md
+   │
+   ├─ gheb/
    │  ├─ images/
    │  ├─ LICENSE
    │  └─ README.md

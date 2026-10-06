@@ -97,7 +97,7 @@ For Offline Facial Bake, source and destination frame rates do not need to match
 ---
 
 ## Blender Workflow
-
+> **Release Version V1.0 – Launch Date: October 4, 2026**
 > **GHEB v1.0 — Blender 5.2 LTS**
 
 The Blender workflow combines:

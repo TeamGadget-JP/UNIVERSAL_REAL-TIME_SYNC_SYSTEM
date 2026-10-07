@@ -20,7 +20,7 @@ Current TeamGadget components include:
 
 - **G-HUB Entangle for Cascadeur (GHEC)** — Cascadeur-side synchronization component
 - **G-HUB Entangle for Unity (GHEU)** — Unity synchronization component
-- **G-HUB Entangle for Blender (GHEB)** — Blender synchronization component Coming Soon
+- **G-HUB Entangle for Blender (GHEB)** — Blender synchronization component
 - **ShapeMixer Entangle (SE)** — Facial animation and shape-key authoring tool
 
 GHEC, GHEU, GHEB, and ShapeMixer Entangle are independent TeamGadget tools designed to work through G-HUB.

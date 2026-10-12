@@ -1,10 +1,10 @@
-# GHEC — G-HUB Entangle for Cascadeur
+# GHEC v1.0.2 — G-HUB Entangle for Cascadeur
 
 **G-HUB Entangle for Cascadeur (GHEC)** is an independent TeamGadget synchronization component designed for use with Cascadeur through G-HUB.
 
-GHEC connects Cascadeur to the **TeamGadget Universal Real-Time Sync System** and provides real-time character synchronization, Character Slot routing, and canonical timeline synchronization.
+GHEC connects Cascadeur to the **TeamGadget Universal Real-Time Sync System** and provides real-time character synchronization, explicit Character Slot assignment, route-scoped multi-character synchronization, and canonical timeline synchronization.
 
-> GHEC is designed to keep the Cascadeur-side workflow simple: install the component, start G-HUB, connect, and enable the Character Slots you want to use.
+> GHEC v1.0.2 uses explicit Character assignment. Each URSS Character Slot can be bound directly to a Cascadeur character branch, so character identity no longer depends on bone-name prefixes.
 
 ---
 
@@ -25,9 +25,7 @@ Cascadeur / GHEC
       └── SE   — ShapeMixer Entangle
 ```
 
-![GHEC Main Window](images/ghec-main.png)
-
----
+![Launch GHEC from the Cascadeur Scripts menu](images/ghec-main.png)
 
 ## Requirements
 
@@ -117,7 +115,7 @@ Open the **Scripts** menu and select:
 
 ![Launch GHEC from the Cascadeur Scripts menu](images/ghec-scripts-menu.png)
 
-> GHEC v1.0 documentation is written for Cascadeur 2026.2.2.
+> GHEC v1.0.2 documentation is written for Cascadeur 2026.2.2.
 
 ---
 
@@ -126,15 +124,20 @@ Open the **Scripts** menu and select:
 1. Start **G-HUB**.
 2. Start **Cascadeur**.
 3. From Cascadeur's **Scripts** menu, select **G-HUB Entangle for Cascadeur**.
-4. Confirm that the G-HUB Control Port matches G-HUB.
-5. Press **CONNECT**.
+4. If the scene was changed after opening GHEC, press **REFRESH** to rescan available Cascadeur character branches.
+5. For each URSS Character Slot you want to use, choose the corresponding Cascadeur character branch from the drop-down list.
 6. Enable the required Character Slots.
-7. Connect the corresponding TeamGadget component.
-8. Start synchronization.
+7. Press **SAVE** when the Slot assignment shows unsaved changes, then save the Cascadeur `.cas` scene normally.
+8. Confirm that the G-HUB Control Port matches G-HUB.
+9. Press **CONNECT**.
+10. Connect the destination TeamGadget endpoint and use the matching Character Slot.
+11. Enable **Timeline Sync** only when canonical timeline synchronization is required.
 
-Once GHEC is connected, the status changes to **CONNECTED**, the endpoint ID is displayed, and slot changes are locked until you disconnect.
+Once GHEC is connected, the status changes to **CONNECTED**, the endpoint ID is displayed, and Character Slot configuration is locked until you disconnect.
 
-![GHEC Connected](images/ghec-connected.png)
+![Launch GHEC from the Cascadeur Scripts menu](images/ghec-main.png)
+
+> Character assignment is scene-owned state. `SAVE` stores the Slot assignment used by GHEC, and saving the `.cas` scene keeps that assignment available after restart.
 
 ---
 
@@ -158,19 +161,38 @@ If the Control Port is changed in G-HUB, enter the same Control Port in GHEC bef
 
 GHEC supports up to **5 Character Slots**.
 
-| GHEC Slot | Channel | G-HUB Prefix |
-| --- | --- | --- |
-| Character 1 | `char_01` | no prefix |
-| Character 2 | `char_02` | `character1:` |
-| Character 3 | `char_03` | `character2:` |
-| Character 4 | `char_04` | `character3:` |
-| Character 5 | `char_05` | `character4:` |
+| GHEC Slot | URSS Route |
+| --- | --- |
+| Character 1 | `char_01` |
+| Character 2 | `char_02` |
+| Character 3 | `char_03` |
+| Character 4 | `char_04` |
+| Character 5 | `char_05` |
 
-Each selected Character Slot is registered with G-HUB and routed independently.
+### Explicit Character Assignment
 
-This allows multiple characters to be synchronized simultaneously while keeping each character's data separated.
+GHEC v1.0.2 assigns each enabled URSS Slot directly to a Cascadeur character branch.
 
-> Slot changes are applied on the next connection.
+The selected Slot owns the Joint set for that character. Destination endpoints can therefore request the character's original Joint names without adding `character1:`, `character2:`, or similar naming prefixes.
+
+Typical setup:
+
+1. Press **REFRESH** to rescan character root Joint branches when required.
+2. Choose the intended Cascadeur character from the Slot drop-down.
+3. Enable the Slot.
+4. Press **SAVE** when the assignment is marked as unsaved.
+5. Save the `.cas` scene.
+6. Connect GHEC.
+
+The assignment line reports the current state, for example an explicit assignment with the number of owned Joints and the selected branch name.
+
+### Legacy Compatibility
+
+Legacy prefix-based lookup is retained only for compatibility with pre-v1.0.2 workflows. It is no longer the recommended Character identity mechanism.
+
+New endpoint implementations should treat the URSS route / Character Slot as the character identity and use original bone or Joint names inside that route.
+
+> Character Slot assignment and enable/disable controls are editable while disconnected. Disconnect GHEC before changing them.
 
 ---
 
@@ -230,11 +252,19 @@ Displays the current G-HUB connection state.
 
 Displays Character 1 through Character 5.
 
-Each row shows:
+Each row provides:
 
-- the Cascadeur-side channel identifier
-- the corresponding G-HUB character prefix
-- whether the slot is enabled
+- a Cascadeur character-branch selector
+- the URSS route identifier (`char_01` through `char_05`)
+- an enable / disable control
+- the current assignment state
+
+The Character Slots section also provides:
+
+- **REFRESH** — rescans available Cascadeur character root Joint branches
+- **SAVE** — stores changed Slot assignments before the normal `.cas` scene save
+
+Explicit Character assignment is the normal v1.0.2 workflow. Legacy prefix fallback is retained only for older projects and endpoints.
 
 ### Timeline Sync
 
@@ -251,6 +281,12 @@ Closing the panel does **not** disconnect GHEC. If GHEC is already connected, it
 ---
 
 ## Distribution
+
+The recommended v1.0.2 release archive is:
+
+```text
+GHEC_v1.0.2_Windows_x64.zip
+```
 
 GHEC uses a mixed distribution model.
 
@@ -360,4 +396,4 @@ Cascadeur and related product names and trademarks belong to their respective ow
 ## Project
 
 **TeamGadget**  
-**GHEC — G-HUB Entangle for Cascadeur**
+**GHEC — G-HUB Entangle for Cascadeur v1.0.2**

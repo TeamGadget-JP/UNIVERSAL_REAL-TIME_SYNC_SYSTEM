@@ -1,4 +1,4 @@
-# GHEU — G-HUB Entangle for Unity
+# GHEU v1.0.1 — G-HUB Entangle for Unity
 
 **G-HUB Entangle for Unity (GHEU)** is an independent TeamGadget synchronization component designed for use with Unity through G-HUB.
 
@@ -51,27 +51,27 @@ This includes non-humanoid bone-driven characters where the connected character 
 
 ## Development / Tested Environment
 
-GHEU v1.0 is developed and validated specifically for:
+GHEU v1.0.1 is developed and validated specifically for:
 
 - **Unity 6.3 LTS**
-- **Unity 6000.3.8f1**
 - Windows 64-bit
 
 Related TeamGadget environment used during validation:
 
 - **G-HUB v1.0**
+- **GHEC v1.0.2**
 - **Cascadeur 2026.2.2 — Windows 64-bit**
 
-> GHEU v1.0 officially supports Unity 6.3 LTS. Other Unity versions are not officially supported by this release.
+> GHEU v1.0.1 officially supports Unity 6.3 LTS. Other Unity versions are not officially supported by this release.
 
 ---
 
 ## Distribution
 
-GHEU v1.0 is distributed as a Unity package:
+GHEU v1.0.1 is distributed as a Unity package:
 
 ```text
-GHEU_v1.0_6.3LTS.unitypackage
+GHEU_v1.0.1_6.3LTS.unitypackage
 ```
 
 Import the package into the Unity project that will receive synchronization data.
@@ -85,7 +85,7 @@ Import the package into the Unity project that will receive synchronization data
 Import:
 
 ```text
-GHEU_v1.0_6.3LTS.unitypackage
+GHEU_v1.0.1_6.3LTS.unitypackage
 ```
 
 into your Unity project.
@@ -282,7 +282,7 @@ The same bone should represent the same part of the character in both Cascadeur 
 
 GHEU is not limited to Unity Humanoid rigs.
 
-GHEU v1.0 officially supports:
+GHEU v1.0.1 officially supports:
 
 - **Humanoid**
 - **Generic**
@@ -466,6 +466,18 @@ Assigns the character to one of the G-HUB Character Slots:
 
 The corresponding Cascadeur character must use the matching Character Slot.
 
+GHEU v1.0.1 follows the current URSS explicit Character routing contract:
+
+| GHEU Character Slot | URSS Route |
+| --- | --- |
+| Character 1 | `char_01` |
+| Character 2 | `char_02` |
+| Character 3 | `char_03` |
+| Character 4 | `char_04` |
+| Character 5 | `char_05` |
+
+Character identity comes from the assigned URSS route / Slot. Bone requests use the original Joint names and do not require legacy `character1:`, `character2:`, or similar prefixes.
+
 ### Body Sync Enabled
 
 Enables or disables body synchronization for this character.
@@ -477,7 +489,31 @@ Supported values:
 - **Humanoid**
 - **Generic**
 
-Both are officially supported by GHEU v1.0.
+Both are officially supported by GHEU v1.0.1.
+
+### Local Position Scale
+
+`Local Position Scale` exposes the positional conversion factor used by GHEU for Root Motion and other translation-enabled bones.
+
+Default:
+
+```text
+0.01
+```
+
+The default preserves the existing centimetre-to-metre conversion used by previous GHEU releases.
+
+Examples:
+
+- `0.01` — standard default behavior
+- `0.005` — half the default translation amount
+- `0.02` — twice the default translation amount
+
+The same value is used by both live body synchronization and offline body animation processing, so live motion and baked output remain consistent.
+
+Rotation is not scaled by this setting.
+
+> Leave `Local Position Scale` at `0.01` unless the destination character requires a different positional conversion.
 
 ---
 
@@ -960,9 +996,9 @@ Where direct correspondence is expected, matching hierarchy and bone naming are 
 
 GHEU uses 16-bit Bone IDs.
 
-The current GHEU v1.0 transport supports up to **2,112 bone entries per synchronized character** due to the single-datagram UDP payload limit.
+The current GHEU v1.0.1 transport supports up to **2,112 bone entries per synchronized character** due to the single-datagram UDP payload limit.
 
-The underlying Bone ID and bone-count fields use 16-bit values, but packet splitting is not implemented in v1.0.
+The underlying Bone ID and bone-count fields use 16-bit values, but packet splitting is not implemented in v1.0.1.
 
 ---
 
@@ -1067,7 +1103,7 @@ Check that:
 
 # Open Source
 
-The Unity-side GHEU source code is intended to be released as open source.
+The Unity-side GHEU source code is released as open source.
 
 The applicable license is included with the GHEU release.
 
@@ -1088,4 +1124,4 @@ GHEU interoperates with other third-party applications only through the TeamGadg
 # Project
 
 **TeamGadget**  
-**GHEU — G-HUB Entangle for Unity**
+**GHEU — G-HUB Entangle for Unity v1.0.1**

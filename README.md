@@ -496,6 +496,22 @@ All third-party product names and trademarks belong to their respective owners.
 
 ---
 
+## Logo and Trademark Notice
+
+The architecture diagrams and workflow illustrations in this README include logos and visual identifiers of third-party applications, including **Cascadeur, Unity, Blender, and Godot**.
+
+These logos are used solely for identification and to illustrate the applications supported by the **Universal Real-Time Sync System (URSS)**.
+
+All third-party logos, product names, and trademarks remain the property of their respective owners.
+
+The inclusion of these logos does not imply any affiliation, endorsement, sponsorship, certification, or official support of TeamGadget or URSS by the respective trademark owners.
+
+All diagrams and workflow illustrations are independently created for documentation and technical explanation purposes and do not represent official materials from the respective application developers.
+
+**TeamGadget respects the intellectual property rights of all third-party developers and organizations.**
+
+---
+
 ## Project
 
 **TeamGadget**  

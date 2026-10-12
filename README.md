@@ -42,6 +42,8 @@ The Unity workflow combines:
 
 For Unity production workflows:
 
+![TeamGadget Unity Workflow](docs/images/GHEU-workflow.png)
+
 ```text
 Body
 Cascadeur / GHEC

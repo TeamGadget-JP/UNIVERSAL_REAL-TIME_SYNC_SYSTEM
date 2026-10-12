@@ -44,32 +44,6 @@ For Unity production workflows:
 
 ![TeamGadget Unity Workflow](docs/images/GHEU-workflow.png)
 
-```text
-Body
-Cascadeur / GHEC
-      │
-      ▼
-    G-HUB
-      │
-      ▼
-Unity / GHEU
-      │
-      └── FBX Bridge → Unity body animation asset
-```
-
-```text
-Facial
-ShapeMixer Entangle
-      │
-      ▼
-    G-HUB
-      │
-      ▼
-Unity / GHEU
-      │
-      └── Offline Facial Bake → BlendShape AnimationClip
-```
-
 Real-time body and facial synchronization can also run through the same G-HUB session.
 
 For Offline Facial Bake, source and destination frame rates do not need to match. GHEU preserves canonical time and resolves each output frame against the corresponding SE source time.
@@ -91,31 +65,7 @@ The Blender workflow combines:
 
 For Blender production workflows:
 
-```text
-Body
-Cascadeur / GHEC
-      │
-      ▼
-    G-HUB
-      │
-      ▼
-Blender / GHEB
-      │
-      └── Offline Body Bake → Blender Armature Action
-```
-
-```text
-Facial
-ShapeMixer Entangle
-      │
-      ▼
-    G-HUB
-      │
-      ▼
-Blender / GHEB
-      │
-      └── Offline Facial Bake → Blender Shape Key Action
-```
+![TeamGadget Unity Workflow](docs/images/GHEB-workflow.png)
 
 Real-time body and facial synchronization can run through the same GHEB endpoint.
 
@@ -138,31 +88,7 @@ The Godot workflow combines:
 
 For Godot production workflows:
 
-```text
-Body
-Cascadeur / GHEC
-      │
-      ▼
-    G-HUB
-      │
-      ▼
-Godot / GHEG
-      │
-      └── FBX Bridge → Godot-imported body animation
-```
-
-```text
-Facial
-ShapeMixer Entangle
-      │
-      ▼
-    G-HUB
-      │
-      ▼
-Godot / GHEG
-      │
-      └── Offline Facial Bake → Godot Animation resource
-```
+![TeamGadget Unity Workflow](docs/images/GHEG-workflow.png)
 
 GHEG supports real-time body and facial synchronization, five Character Slots, canonical timeline synchronization, Smart Swizzle diagnostics, FBX Bridge import, and offline facial-animation bake.
 

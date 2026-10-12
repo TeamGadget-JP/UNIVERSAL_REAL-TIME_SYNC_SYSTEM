@@ -1,0 +1,97 @@
+G-HUB Entangle for Godot (GHEG) - End User License Agreement (EULA)
+
+Copyright (c) 2026 TeamGadget. All rights reserved.
+
+By downloading, installing, copying, or using "G-HUB Entangle for Godot" (hereinafter referred to as "the Software" or "GHEG"), you agree to be bound by the terms of this End User License Agreement.
+
+1. OVERVIEW
+
+GHEG is a Godot .NET endpoint for the TeamGadget Universal Real-Time Sync System (URSS) / G-HUB synchronization ecosystem.
+
+The Software is designed to receive and apply character animation, facial animation, timeline synchronization, and related synchronization data inside supported Godot projects.
+
+GHEG may be used together with other TeamGadget components. Each separately distributed TeamGadget component may be subject to its own license terms.
+
+2. OWNERSHIP AND INTELLECTUAL PROPERTY
+
+The Software and the synchronization technologies, architecture, algorithms, data structures, workflow designs, routing logic, pose-processing logic, Smart Swizzle-related logic, transport design, and other proprietary implementation concepts embodied in the Software are owned by TeamGadget.
+
+This Agreement grants you a limited right to use the Software. It does not transfer ownership of the Software or any intellectual property rights to you.
+
+Availability of source files does not, by itself, place the Software in the public domain or make it open source unless a separate open-source license explicitly states otherwise.
+
+3. GRANT OF LICENSE
+
+TeamGadget grants you a personal, non-exclusive, non-transferable, royalty-free license to use the Software for personal or commercial production.
+
+You may use the Software to create animation, games, interactive content, rendered media, prototypes, and other production output.
+
+You may distribute and commercially exploit final works created with the Software, including games, applications, rendered images, videos, and animation data, provided that the Software itself is not redistributed as a standalone product, reusable plugin, development tool, or competing synchronization package.
+
+You may keep reasonable backup copies for your own use.
+
+4. RESTRICTIONS
+
+Except where expressly permitted by applicable law, you may NOT:
+
+a) Redistribute, mirror, upload, sublicense, publish, host, or otherwise make the Software, or a substantially complete copy of it, available as a standalone package, plugin, add-on, repository, archive, or reusable development component.
+
+b) Sell, rent, lease, resell, bundle, or commercially monetize the Software itself.
+
+c) Remove, obscure, or alter copyright notices, license notices, attribution, or proprietary notices included with the Software.
+
+d) Copy, extract, reproduce, or adapt proprietary synchronization algorithms, architecture, routing logic, Smart Swizzle-related logic, or other distinctive implementation techniques from the Software for the purpose of creating or assisting in the creation of a competing synchronization tool, plugin, framework, or service.
+
+e) Use the Software in a manner that violates the license terms of Godot Engine or any other third-party software used together with GHEG.
+
+5. LOCAL MODIFICATION
+
+You may make local modifications to the Software solely for your own development, testing, production, or compatibility needs.
+
+Local modification does not grant you the right to redistribute modified or unmodified copies of the Software.
+
+TeamGadget is not responsible for failures, incompatibilities, data loss, or other issues caused by modified versions.
+
+6. PROJECT DISTRIBUTION
+
+The restriction on redistribution of the Software does not prohibit distribution of final projects or products created with GHEG.
+
+Where practical, editor-only GHEG files should be excluded from exported runtime builds unless they are technically required by the project.
+
+If a distributed project includes any GHEG source or binary files, those files remain subject to this EULA and may not be extracted or redistributed as a standalone tool.
+
+7. THIRD-PARTY SOFTWARE
+
+Godot Engine and other third-party products used with GHEG are governed by their respective licenses and terms.
+
+GHEG is an independent project developed by TeamGadget and is not affiliated with, endorsed by, sponsored by, or officially supported by the developers or maintainers of Godot Engine or any other third-party software unless explicitly stated otherwise.
+
+8. NO SUPPORT OBLIGATION
+
+The Software is provided free of charge.
+
+TeamGadget is under no obligation to provide technical support, updates, bug fixes, compatibility fixes, maintenance, or future versions.
+
+Any support, update, fix, or improvement may be provided at TeamGadget's sole discretion.
+
+9. DISCLAIMER OF WARRANTY
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.
+
+TEAMGADGET DISCLAIMS ALL WARRANTIES, INCLUDING BUT NOT LIMITED TO WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, NON-INFRINGEMENT, ACCURACY, RELIABILITY, AND COMPATIBILITY WITH ANY SPECIFIC PROJECT, CHARACTER RIG, GODOT VERSION, OPERATING ENVIRONMENT, OR WORKFLOW.
+
+10. LIMITATION OF LIABILITY
+
+IN NO EVENT SHALL TEAMGADGET BE LIABLE FOR ANY CLAIM, DAMAGE, LOSS, OR OTHER LIABILITY ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR INABILITY TO USE THE SOFTWARE.
+
+THIS INCLUDES, WITHOUT LIMITATION, DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR BUSINESS-RELATED DAMAGES, LOSS OF DATA, LOSS OF PROFITS, PROJECT FAILURE, PRODUCTION DELAYS, OR INTERRUPTION OF WORK.
+
+11. TERMINATION
+
+If you violate any term of this EULA, your license to use the Software terminates automatically.
+
+Upon termination, you must stop using the Software and delete any copies that you are no longer authorized to retain.
+
+12. ACCEPTANCE
+
+By downloading, installing, copying, or using the Software, you acknowledge that you have read, understood, and agreed to this EULA.

@@ -10,14 +10,6 @@ The TeamGadget Universal Real-Time Sync System connects animation and game-engin
 
 ---
 
-## Overview
-
-The system is designed around a simple rule:
-
-```text
-Applications do not connect directly to each other.
-They connect through G-HUB.
-```
 ![TeamGadget Unity Workflow](docs/images/urss-top.png)
 
 The current URSS suite provides:

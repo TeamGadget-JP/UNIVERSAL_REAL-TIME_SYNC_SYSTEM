@@ -1,4 +1,4 @@
-# GHEB — G-HUB Entangle for Blender
+# GHEB v1.0.1 — G-HUB Entangle for Blender
 
 **G-HUB Entangle for Blender (GHEB)** is an independent TeamGadget synchronization component designed for use with Blender through G-HUB.
 
@@ -38,8 +38,7 @@ ShapeMixer Entangle / SE
 Body and facial synchronization can run at the same time through the same GHEB endpoint.
 
 ![GHEB Main UI](images/gheb-main.png)
-
----
+![GHEB Main UI](images/gheb-se.png)
 
 ## Features
 
@@ -70,18 +69,18 @@ Body and facial synchronization can run at the same time through the same GHEB e
 
 ## Development / Tested Environment
 
-GHEB v1.0 is developed and validated specifically for:
+GHEB v1.0.1 is developed and validated specifically for:
 
 - **Blender 5.2 LTS**
 - Windows 64-bit
 
-Related TeamGadget components used with the v1.0 workflow include:
+Related TeamGadget components used with the v1.0.1 workflow include:
 
 - **G-HUB v1.0**
-- **GHEC v1.0.1**
+- **GHEC v1.0.2**
 - **ShapeMixer Entangle v1.0**
 
-> GHEB v1.0 officially supports Blender 5.2 LTS only. Other Blender versions are not officially supported by this release.
+> GHEB v1.0.1 officially supports Blender 5.2 LTS only. Other Blender versions are not officially supported by this release.
 
 ---
 
@@ -90,18 +89,18 @@ Related TeamGadget components used with the v1.0 workflow include:
 The recommended release package name is:
 
 ```text
-GHEB_v1_0_Blender5_2LTS.zip
+GHEB_v1_0_1_Blender5_2LTS.zip
 ```
 
-The installed Python package folder remains:
+The release ZIP contains the Python add-on package folder:
 
 ```text
-GHEB
+GHEB_v1_0
 ```
 
-Do **not** rename the internal add-on folder to `GHEB_v1.0`.
+Keep the internal add-on folder name unchanged when installing or copying the package manually.
 
-Blender loads the add-on as a Python package, and the internal package name should remain a valid Python module name.
+Blender loads the add-on as a Python package, so the internal folder name must remain a valid Python module name.
 
 ---
 
@@ -112,7 +111,7 @@ Blender loads the add-on as a Python package, and the internal package name shou
 1. Download:
 
 ```text
-GHEB_v1_0_Blender5_2LTS.zip
+GHEB_v1_0_1_Blender5_2LTS.zip
 ```
 
 2. Open **Blender 5.2 LTS**.
@@ -131,7 +130,7 @@ The add-on appears in the 3D View Sidebar under:
 GHEB
 ```
 
-> If installing from an extracted folder instead of the ZIP, keep the package folder name exactly `GHEB`.
+> If installing from an extracted folder instead of the ZIP, keep the package folder name exactly as distributed: `GHEB_v1_0`.
 
 ---
 
@@ -204,11 +203,12 @@ Actual compatibility depends on the hierarchy, bone identity, reference pose, an
 5. In **GHEB Entangle**, enable the required Character Slot.
 6. Assign the destination **Armature**.
 7. Configure **Root / Pelvis** translation bones if required.
-8. Press **Start Entangle**.
-9. Wait for the matching G-HUB Body route to become active.
-10. Run **Smart Swizzle** when the cache is not yet available.
-11. Enable **Body Interpolation** if smoother live motion is desired.
-12. Enable **Sync Timeline** when canonical Timeline synchronization is required.
+8. Leave **Translation Scale** at `1.0` for the existing default behavior, or adjust it when positional motion needs a different multiplier.
+9. Press **Start Entangle**.
+10. Wait for the matching G-HUB Body route to become active.
+11. Run **Smart Swizzle** when the cache is not yet available.
+12. Enable **Body Interpolation** if smoother live motion is desired.
+13. Enable **Sync Timeline** when canonical Timeline synchronization is required.
 
 ---
 
@@ -332,23 +332,26 @@ Body, Facial, and Timeline features share one GHEB endpoint and one G-HUB Contro
 
 GHEB supports up to **5 Character Slots**:
 
+| GHEB Slot | URSS Route |
+| --- | --- |
+| C1 | `char_01` |
+| C2 | `char_02` |
+| C3 | `char_03` |
+| C4 | `char_04` |
+| C5 | `char_05` |
+
+GHEB v1.0.1 follows the current URSS explicit Character routing contract.
+
+Character identity is owned by the active URSS route / Slot. GHEB therefore requests original bone names and does not depend on legacy Cascadeur prefixes such as `character1:` or `character2:`.
+
+The GHEB UI shows the route directly, for example:
+
 ```text
-C1
-C2
-C3
-C4
-C5
+C1 (char_01)
+C2 (char_02)
+...
+C5 (char_05)
 ```
-
-The Cascadeur prefix convention is:
-
-| GHEB Character | G-HUB Character | Cascadeur Prefix |
-| --- | --- | --- |
-| C1 | `char_01` | no prefix |
-| C2 | `char_02` | `character1:` |
-| C3 | `char_03` | `character2:` |
-| C4 | `char_04` | `character3:` |
-| C5 | `char_05` | `character4:` |
 
 C1 is enabled by default in a new Blender scene.
 
@@ -375,6 +378,39 @@ identify body bones that should receive translation channels in addition to rota
 
 Mapped body bones receive live rotation data.  
 Configured Root / Pelvis bones can also receive live position data when position samples are available.
+
+---
+
+## Translation Scale
+
+Each Character Slot provides a `Translation Scale` setting.
+
+Default:
+
+```text
+1.0
+```
+
+The scale is applied only to positional translation after GHEB resolves the incoming coordinate conversion.
+
+It affects translation for the configured:
+
+- Root
+- Pelvis 1
+- Pelvis 2
+- Pelvis 3
+
+The same multiplier is used for both **Live Sync** and **Offline Body Bake**, so the previewed motion and the baked Action use the same positional scale.
+
+Rotation is not affected.
+
+Examples:
+
+- `1.0` — existing default behavior
+- `0.5` — half the translation amount
+- `2.0` — twice the translation amount
+
+> Smart Swizzle cache data remains unit-neutral. `Translation Scale` is a per-Slot output multiplier and can be adjusted without rebuilding the Smart Swizzle cache.
 
 ---
 
@@ -688,7 +724,7 @@ The Body and Facial results remain separate production assets.
 
 ## Bake Target Behavior
 
-Current v1.0 behavior:
+Current v1.0.1 behavior:
 
 - **Body** — one selected Character
 - **Facial** — all active valid Face Slots
@@ -721,7 +757,7 @@ Bake Delay adds an optional pause between completed Offline Bake frame transacti
 
 `0.00` is available for advanced use and testing.
 
-The default `0.02` setting is the recommended safe value for v1.0.
+The default `0.02` setting is the recommended safe value for v1.0.1.
 
 ---
 
@@ -807,9 +843,9 @@ GHEB live facial synchronization is designed to broadcast matching incoming name
 
 ## Timeline chatters when another endpoint uses a slower playback rate
 
-GHEB v1.0 follows external canonical playback passively.
+GHEB v1.0.1 follows external canonical playback passively.
 
-If this behavior appears, confirm that the current v1.0 GHEB files are installed and that an older development build is not still enabled.
+If this behavior appears, confirm that the current v1.0.1 GHEB files are installed and that an older development build is not still enabled.
 
 ---
 
@@ -859,4 +895,4 @@ All third-party product names and trademarks belong to their respective owners.
 # Project
 
 **TeamGadget**  
-**G-HUB Entangle for Blender (GHEB) v1.0**
+**G-HUB Entangle for Blender (GHEB) v1.0.1**

@@ -4,7 +4,7 @@
 >
 >Current release tags use component-specific names. Please follow the instructions below for each software:
 >
->## 💻 Standalone Applications (Unzip Required)
+>## Standalone Applications (Unzip Required)
 >*   **[G-HUB v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.0.0/G-HUB_v1.0_Windows_x64.zip)**  
 >    Required for Universal Real-time Sync System.  
 >    **How to install:** Unzip the file. This is a standalone application.
@@ -12,12 +12,12 @@
 >    Facial / Shape Key authoring Endpoint.  
 >    **How to install:** Unzip the file. This is a standalone application.
 >
->## 🟠 Blender (⚠️ DO NOT UNZIP)
+>## Blender (⚠️ DO NOT UNZIP)
 >*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
 >    Blender 5.2LTS Endpoint.  
 >    **How to install:** ⚠️ **DO NOT UNZIP.** Download the `.zip` file and install it directly via Blender's Add-on / Extension preferences.
 >
->## 🎮 Game Engines & DCC Tools (Unzip Required)
+>## Game Engines & DCC Tools (Unzip Required)
 >*   **[GHEC v1.0.2](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.0.2/GHEC_v1.0.2_Windows_x64.zip)**  
 >    Cascadeur 2026.2 Endpoint.  
 >    **How to install:** Unzip the file and manually place the folder into the designated plugin directory.

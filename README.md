@@ -7,12 +7,12 @@
 >Current release tags use component-specific names such as:
 >
 ```text
->g-hub-v1.0.0
->ghec-v1.0.2
->gheu-v1.0.1
->se-v1.0.0
->gheb-v1.0.1
->gheg-v1.0.0
+g-hub-v1.0.0
+ghec-v1.0.2
+gheu-v1.0.1
+se-v1.0.0
+gheb-v1.0.1
+gheg-v1.0.0
 ```
 
 # TeamGadget Universal Real-Time Sync System

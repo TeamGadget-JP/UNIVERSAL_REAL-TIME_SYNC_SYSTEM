@@ -6,14 +6,7 @@
 >
 >Current release tags use component-specific names such as:
 >
-```text
-- [G-HUB v1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.0.0/G-HUB_v1.0_Windows_x64.zip)
-ghec-v1.0.2
-gheu-v1.0.1
-se-v1.0.0
-gheb-v1.0.1
-gheg-v1.0.0
-```
+>- [G-HUB v1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.0.0/G-HUB_v1.0_Windows_x64.zip)
 
 ![TeamGadget Unity Workflow](docs/images/urss-top.png)
 

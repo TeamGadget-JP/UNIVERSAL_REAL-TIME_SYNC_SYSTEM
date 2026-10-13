@@ -1,0 +1,97 @@
+G-HUB Entangle for Godot (GHEG) - 최종 사용자 라이선스 계약(EULA)
+
+Copyright (c) 2026 TeamGadget. All rights reserved.
+
+"G-HUB Entangle for Godot"(이하 "소프트웨어" 또는 "GHEG")를 다운로드, 설치, 복사 또는 사용함으로써 귀하는 본 최종 사용자 라이선스 계약의 조건에 동의합니다.
+
+1. 개요
+
+GHEG는 TeamGadget Universal Real-Time Sync System(URSS) / G-HUB 동기화 생태계를 위한 Godot .NET Endpoint입니다.
+
+본 소프트웨어는 지원되는 Godot 프로젝트 내에서 Character Animation, Facial Animation, Timeline Synchronization 및 관련 Synchronization Data를 수신하고 적용하도록 설계되었습니다.
+
+GHEG는 다른 TeamGadget 컴포넌트와 함께 사용할 수 있습니다. 개별적으로 배포되는 각 TeamGadget 컴포넌트에는 각각의 라이선스 조건이 적용될 수 있습니다.
+
+2. 소유권 및 지적 재산권
+
+본 소프트웨어에 구현된 동기화 기술, Architecture, Algorithm, Data Structure, Workflow Design, Routing Logic, Pose Processing Logic, Smart Swizzle 관련 Logic, Transport Design 및 기타 독점적 구현 개념을 포함한 본 소프트웨어의 권리는 TeamGadget에 귀속됩니다.
+
+본 계약은 소프트웨어를 사용할 수 있는 제한적인 권리를 부여할 뿐이며, 소프트웨어 또는 그 지적 재산권의 소유권을 귀하에게 이전하지 않습니다.
+
+Source File이 제공된다는 사실만으로는, 별도의 Open-source License에서 명시적으로 규정하지 않는 한 소프트웨어가 Public Domain 또는 Open Source가 되는 것은 아닙니다.
+
+3. 라이선스 부여
+
+TeamGadget은 개인 또는 상업적 제작을 위해 본 소프트웨어를 사용할 수 있는 개인적이고 비독점적이며 양도 불가능한 Royalty-free License를 귀하에게 부여합니다.
+
+귀하는 본 소프트웨어를 사용하여 Animation, Game, Interactive Content, Rendered Media, Prototype 및 기타 제작 결과물을 만들 수 있습니다.
+
+소프트웨어 자체를 독립 제품, 재사용 가능한 Plugin, 개발 도구 또는 경쟁하는 동기화 Package로 재배포하지 않는 조건으로, 본 소프트웨어를 사용하여 제작한 Game, Application, Rendered Image, Video, Animation Data 등의 최종 결과물을 배포하고 상업적으로 이용할 수 있습니다.
+
+개인적인 사용을 위한 합리적인 수의 Backup Copy를 보관할 수 있습니다.
+
+4. 제한 사항
+
+적용 법률에서 명시적으로 허용하는 경우를 제외하고 다음 행위를 할 수 없습니다.
+
+a) 본 소프트웨어 또는 실질적으로 완전한 사본을 독립 Package, Plugin, Add-on, Repository, Archive 또는 재사용 가능한 개발 컴포넌트 형태로 재배포, Mirror, Upload, Sublicense, 게시, Hosting 또는 기타 방식으로 제공하는 행위.
+
+b) 본 소프트웨어 자체를 판매, 임대, Lease, 재판매, Bundle 또는 상업적으로 수익화하는 행위.
+
+c) 소프트웨어에 포함된 Copyright Notice, License Notice, Attribution 또는 Proprietary Notice를 제거, 은폐 또는 변경하는 행위.
+
+d) 경쟁 동기화 도구, Plugin, Framework 또는 Service를 개발하거나 그 개발을 지원할 목적으로 소프트웨어의 독점 동기화 Algorithm, Architecture, Routing Logic, Smart Swizzle 관련 Logic 또는 기타 고유 구현 기술을 복사, 추출, 재현 또는 변형하는 행위.
+
+e) Godot Engine 또는 GHEG와 함께 사용되는 기타 Third-party Software의 License 조건을 위반하는 방식으로 본 소프트웨어를 사용하는 행위.
+
+5. 로컬 수정
+
+귀하는 자신의 개발, 테스트, 제작 또는 호환성 목적에 한해 로컬 환경에서 소프트웨어를 수정할 수 있습니다.
+
+로컬 수정은 수정된 버전 또는 수정되지 않은 버전을 재배포할 권리를 부여하지 않습니다.
+
+TeamGadget은 수정된 버전으로 인해 발생한 오류, 비호환, 데이터 손실 또는 기타 문제에 대해 책임을 지지 않습니다.
+
+6. 프로젝트 배포
+
+소프트웨어 재배포에 대한 제한은 GHEG를 사용하여 제작한 최종 프로젝트 또는 제품의 배포를 금지하지 않습니다.
+
+가능한 경우, 기술적으로 필요하지 않은 Editor 전용 GHEG 파일은 Export된 Runtime Build에서 제외해야 합니다.
+
+배포되는 프로젝트에 GHEG Source 또는 Binary File이 포함되는 경우, 해당 파일은 계속해서 본 EULA의 적용을 받으며 독립적인 도구로 추출하거나 재배포할 수 없습니다.
+
+7. THIRD-PARTY SOFTWARE
+
+Godot Engine 및 GHEG와 함께 사용되는 기타 Third-party Product에는 각각의 License 및 이용 조건이 적용됩니다.
+
+GHEG는 TeamGadget이 독립적으로 개발한 프로젝트이며, 명시적으로 달리 표기되지 않는 한 Godot Engine 또는 기타 Third-party Software의 개발자나 유지 관리자와 제휴, 승인, 후원 또는 공식 지원 관계에 있지 않습니다.
+
+8. 지원 의무 없음
+
+본 소프트웨어는 무료로 제공됩니다.
+
+TeamGadget은 기술 지원, Update, Bug Fix, Compatibility Fix, Maintenance 또는 향후 Version을 제공할 의무가 없습니다.
+
+지원, Update, 수정 또는 개선은 TeamGadget의 재량에 따라 제공될 수 있습니다.
+
+9. 보증 부인
+
+본 소프트웨어는 어떠한 명시적 또는 묵시적 보증도 없이 "있는 그대로(AS IS)" 제공됩니다.
+
+TEAMGADGET은 상품성, 특정 목적에의 적합성, 비침해성, 정확성, 신뢰성 및 특정 Project, Character Rig, Godot Version, 운영 환경 또는 Workflow와의 호환성에 대한 보증을 포함하되 이에 한정되지 않는 모든 보증을 부인합니다.
+
+10. 책임의 제한
+
+어떠한 경우에도 TEAMGADGET은 본 소프트웨어 또는 본 소프트웨어의 사용이나 사용 불능으로 인해 발생하거나 이와 관련된 청구, 손해, 손실 또는 기타 책임에 대해 책임을 지지 않습니다.
+
+여기에는 직접, 간접, 부수적, 특별, 결과적 또는 사업 관련 손해, Data Loss, Profit Loss, Project Failure, Production Delay 또는 Work Interruption이 포함되며 이에 한정되지 않습니다.
+
+11. 종료
+
+본 EULA의 조건을 위반할 경우 소프트웨어 사용 License는 자동으로 종료됩니다.
+
+License 종료 시 귀하는 소프트웨어 사용을 중단하고 더 이상 보유 권한이 없는 모든 사본을 삭제해야 합니다.
+
+12. 동의
+
+본 소프트웨어를 다운로드, 설치, 복사 또는 사용함으로써 귀하는 본 EULA를 읽고 이해했으며 이에 동의했음을 인정합니다.

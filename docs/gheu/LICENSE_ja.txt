@@ -1,0 +1,17 @@
+MIT License 日本語参考訳
+
+Copyright (c) 2026 TeamGadget
+
+【重要】
+本ファイルは英語版LICENSEの日本語参考訳です。
+法的効力・解釈に差異がある場合は、英語版LICENSEを正本とします。
+
+本Softwareおよび関連Documentation File（以下「Software」）のCopyを取得するすべての者に対し、Softwareを制限なく取り扱うことを無償で許可します。これには、使用、複製、変更、結合、公開、配布、Sublicense、販売、およびSoftwareを提供された者にこれらを許可する権利を含みます。
+
+ただし、以下の条件に従うものとします。
+
+上記Copyright Noticeおよび本Permission Noticeを、SoftwareのすべてのCopyまたは実質的部分に含めなければなりません。
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+本Softwareは「現状有姿（AS IS）」で提供され、商品性、特定目的への適合性、非侵害を含むがこれらに限定されない、明示・黙示を問わずいかなる保証もありません。いかなる場合もAuthorまたはCopyright Holderは、契約、不法行為、その他の根拠を問わず、本Softwareまたは本Softwareの使用その他の取扱いに起因・関連して生じるClaim、Damage、その他Liabilityについて責任を負いません。

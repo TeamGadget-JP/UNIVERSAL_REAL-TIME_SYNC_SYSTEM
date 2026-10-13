@@ -15,7 +15,7 @@
 
 ## 📥 Downloads
 
-Official binary and packaged releases are available from [GitHub Releases](https://github.com).
+Official binary and packaged releases are available from [GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases).
 
 Current release tags use component-specific names. Please follow the instructions below for each software:
 

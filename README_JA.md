@@ -1,8 +1,6 @@
 >## ダウンロード
 >
->公式バイナリおよびパッケージ版は [GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases) から入手できます。
->
->現在のRelease Tagはコンポーネントごとに個別の名前を使用しています。各ソフトウェアについて、以下の手順に従ってください。
+>[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
 >
 >## スタンドアロンアプリケーション（解凍が必要）
 >*   **[G-HUB v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.0.0/G-HUB_v1.0_Windows_x64.zip)**  

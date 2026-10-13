@@ -1,8 +1,6 @@
 >## Downloads
 >
->Official binary and packaged releases are available from [GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases).
->
->Current release tags use component-specific names. Please follow the instructions below for each software:
+>[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases).
 >
 >## Standalone Applications (Unzip Required)
 >*   **[G-HUB v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.0.0/G-HUB_v1.0_Windows_x64.zip)**  

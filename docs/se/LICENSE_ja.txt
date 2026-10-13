@@ -1,0 +1,133 @@
+ShapeMixer Entangle v1.0 - LICENSE 日本語参考訳
+TeamGadget
+
+Copyright (c) 2026 TeamGadget.
+以下で明示的に許諾される場合を除き、すべての権利を留保します。
+
+【重要】
+本ファイルは英語版LICENSEの日本語参考訳です。
+法的効力・解釈に差異がある場合は、英語版LICENSEを正本とします。
+
+============================================================
+1. ライセンスの付与
+============================================================
+
+本License条件に従うことを前提として、TeamGadgetは利用者に対し、個人または商用のAnimation、Game、Film、Visualization、その他Content Production目的でShapeMixer EntangleをInstall / Useするための、個人的、非独占的、譲渡不能、取消可能、ロイヤリティフリーのLicenseを付与します。
+
+利用者は、自身のInstall / Backupに合理的に必要な範囲に限りShapeMixer EntangleのCopyを作成できます。
+
+本LicenseはShapeMixer Entangleそのものに適用されます。ShapeMixer Entangleを使用して制作したAnimation、Game、Film、Visualization、その他Production Outputに対する利用者のOwnership / Commercial Useを制限しません。
+
+============================================================
+2. 所有権およびソースコード
+============================================================
+
+ShapeMixer EntangleはTeamGadgetのProprietary Softwareです。
+
+Public DistributionにはPrebuilt Softwareが含まれます。Source Codeは含まれず、Open-source Licenseでは提供されません。
+
+本Licenseで明示的に付与される限定的な権利を除き、ShapeMixer Entangleに関するすべての権利、権原、利益はTeamGadgetに帰属します。
+
+============================================================
+3. 再配布
+============================================================
+
+TeamGadgetの事前書面許可なしに、ShapeMixer EntangleまたはそのBinaryを第三者へRedistribute、Mirror、Re-host、Sublicense、Publish、Upload、Bundle、Sell、Lease、Rent、その他の方法で提供することはできません。
+
+利用者はTeamGadgetの公式Distribution LocationからShapeMixer Entangleを取得してください。
+
+============================================================
+4. 禁止事項
+============================================================
+
+以下の制限が適用法により禁止される範囲を除き、利用者は次の行為を行えません。
+
+- ShapeMixer EntangleのSource Code / Internal Implementationを取得する目的でReverse Engineer、Decompile、Disassemble、Decode、その他解析を試みること
+- ShapeMixer Entangle BinaryをModify、Patch、Translate、Transform、またはDerivative Workを作成すること
+- ShapeMixer Entangleに含まれるTechnical Restriction、Copyright Notice、License Notice、その他Proprietary NoticeをBypass、Disable、Remove、Alter、Interfereすること
+- ShapeMixer EntangleそのものをSell、Lease、Rent、Sublicense、有料Access提供、その他の方法でMonetizeすること
+- 適用法またはThird-party License条件に違反する方法でShapeMixer Entangleを使用すること
+- ShapeMixer EntangleをOpen-source Softwareであると表示すること
+- 自身または第三者をShapeMixer EntangleのDeveloper、Owner、Certifier、Official Distributorであるかのように表示すること
+
+============================================================
+5. THIRD-PARTY SOFTWARE
+============================================================
+
+ShapeMixer EntangleはThird-party Library、Framework、Runtime、Native Component、その他Softwareを含む、またはそれらに依存します。
+
+それらにはそれぞれのLicense、Notice、Ownership Rightsが適用されます。本Licenseは該当Third-party Licenseが付与する範囲を超える権利を付与しません。
+
+ShapeMixer Entangleと一緒に配布されるThird-party NoticeはDistribution Documentationの一部であり、Softwareとともに保持してください。
+
+============================================================
+6. THIRD-PARTY製品および商標
+============================================================
+
+ShapeMixer Entangleは独立したTeamGadget Projectです。
+
+Third-party Application、Product、Company、File Format、Trademarkへの参照は、Compatibility、Interoperability、Intended Useを識別する目的でのみ行われます。
+
+TeamGadgetが書面で明示しない限り、TeamGadgetはそれらThird-party ProductのDeveloper / Ownerと提携、承認、スポンサー、認証、公式サポート関係を持ちません。
+
+Third-party製品名 / Trademarkは各権利者に帰属します。
+
+============================================================
+7. サポート義務の免除
+============================================================
+
+ShapeMixer Entangleは無償で提供されます。
+
+TeamGadgetはTechnical Support、Maintenance、Update、Upgrade、Compatibility Fix、Documentation Update、Bug Fixを提供する義務を負いません。
+
+TeamGadgetは裁量によりShapeMixer Entangleまたは将来Versionを変更、中断、終了する場合があります。
+
+============================================================
+8. 保証の否認
+============================================================
+
+ShapeMixer Entangleは「現状有姿（AS IS）」かつ「提供可能な状態（AS AVAILABLE）」で提供され、明示、黙示、法定、その他を問わずいかなる保証も伴いません。
+
+適用法で許される最大限の範囲で、TeamGadgetは商品性、特定目的への適合性、非侵害、正確性、信頼性、互換性、可用性、中断のない動作、Error-free Operationを含むがこれらに限定されないすべての保証を否認します。
+
+============================================================
+9. 責任の制限
+============================================================
+
+適用法で許される最大限の範囲で、TeamGadgetはShapeMixer Entangleに起因または関連する直接、間接、付随、特別、懲罰的、結果的、業務上の損害について責任を負いません。
+
+これには以下を含みますが、これらに限定されません。
+
+- Dataの消失または破損
+- 利益または売上の損失
+- Project Failure
+- Production Delay
+- Work Interruption
+- Business Opportunityの損失
+- Third-party Software、File、Serviceとの非互換
+- Animation、Game、Film、Visualization、Audio、Project Fileの損傷または消失
+
+============================================================
+10. 契約終了
+============================================================
+
+本条件へ重大に違反した場合、ShapeMixer Entangleを使用するLicenseは自動的に終了します。
+
+終了後、適用法により保持が義務付けられている場合を除き、ShapeMixer Entangleの使用を停止し、所有または管理下にあるすべてのCopyを削除してください。
+
+============================================================
+11. 分離可能性
+============================================================
+
+本Licenseのいずれかの条項が執行不能と判断された場合でも、残りの条項は適用法で許される最大限の範囲で引き続き有効です。
+
+============================================================
+12. 同意
+============================================================
+
+ShapeMixer EntangleをDownload、Install、Copy、または使用することにより、利用者は本Licenseを読み、その条件に同意したことを認めたものとみなされます。
+
+============================================================
+
+Copyright (c) 2026 TeamGadget.
+上記で明示的に許諾される場合を除き、すべての権利を留保します。

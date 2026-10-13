@@ -1,18 +1,18 @@
-## Downloads
-
-Official binary and packaged releases are available from:
-
-[**GitHub Releases**](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
-
-Current release tags use component-specific names such as:
-
+>## Downloads
+>
+>Official binary and packaged releases are available from:
+>
+>[**GitHub Releases**](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
+>
+>Current release tags use component-specific names such as:
+>
 ```text
-g-hub-v1.0.0
-ghec-v1.0.2
-gheu-v1.0.1
-se-v1.0.0
-gheb-v1.0.1
-gheg-v1.0.0
+>g-hub-v1.0.0
+>ghec-v1.0.2
+>gheu-v1.0.1
+>se-v1.0.0
+>gheb-v1.0.1
+>gheg-v1.0.0
 ```
 
 # TeamGadget Universal Real-Time Sync System
@@ -415,25 +415,6 @@ For Godot:
 
 - **Body asset:** FBX Bridge → Godot-imported animation
 - **Facial asset:** SE → G-HUB → GHEG Offline Facial Bake → Godot Animation resource
-
----
-
-## Downloads
-
-Official binary and packaged releases are available from:
-
-[**GitHub Releases**](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
-
-Current release tags use component-specific names such as:
-
-```text
-g-hub-v1.0.0
-ghec-v1.0.2
-gheu-v1.0.1
-se-v1.0.0
-gheb-v1.0.1
-gheg-v1.0.0
-```
 
 ---
 

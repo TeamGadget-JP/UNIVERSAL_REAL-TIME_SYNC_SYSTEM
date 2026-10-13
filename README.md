@@ -15,18 +15,6 @@ gheb-v1.0.1
 gheg-v1.0.0
 ```
 
-# TeamGadget Universal Real-Time Sync System
-
-A modular real-time synchronization ecosystem centered around **G-HUB**.
-
-The TeamGadget Universal Real-Time Sync System connects animation and game-engine tools through a shared routing layer instead of requiring every application to communicate directly with every other application.
-
-**G-HUB** owns endpoint connection management, Character Slot routing, real-time body / facial data channels, and canonical timeline synchronization.
-
-> Connect each TeamGadget component to G-HUB, assign matching Character Slots, and let the hub manage the route.
-
----
-
 ![TeamGadget Unity Workflow](docs/images/urss-top.png)
 
 The current URSS suite provides:

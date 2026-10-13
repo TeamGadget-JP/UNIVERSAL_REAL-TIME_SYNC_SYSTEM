@@ -1,3 +1,7 @@
+> **Download Note**
+>
+> Please download **G-HUB v1.0** and **ShapeMixer Entangle v1.0** from the **Releases** section on the right side of this repository page.
+
 # TeamGadget Universal Real-Time Sync System
 
 A modular real-time synchronization ecosystem centered around **G-HUB**.

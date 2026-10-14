@@ -145,7 +145,7 @@ G-HUBはシステムの中心となるコンポーネントです。
 
 Documentation:
 
-[`docs/g-hub/README.md`](docs/g-hub/README.md)
+[`docs/g-hub/README.md`](docs/g-hub/README_JA.md)
 
 ---
 
@@ -174,7 +174,7 @@ GHEC_v1.0.2_Windows_x64.zip
 
 Documentation:
 
-[`docs/ghec/README.md`](docs/ghec/README.md)
+[`docs/ghec/README.md`](docs/ghec/README_JA.md)
 
 ---
 
@@ -206,7 +206,7 @@ GHEUはUnity 6.3 LTS向けに開発・検証されています。その他のUni
 
 Documentation:
 
-[`docs/gheu/README.md`](docs/gheu/README.md)
+[`docs/gheu/README.md`](docs/gheu/README_JA.md)
 
 ---
 
@@ -239,7 +239,7 @@ GHEBはBlender 5.2 LTS向けに開発・検証されています。その他のB
 
 Documentation:
 
-[`docs/gheb/README.md`](docs/gheb/README.md)
+[`docs/gheb/README.md`](docs/gheb/README_JA.md)
 
 ---
 
@@ -271,7 +271,7 @@ GHEGのSetupには、Godot側で複数のNodeとReference設定が必要です�
 
 Documentation:
 
-[`docs/gheg/README.md`](docs/gheg/README.md)
+[`docs/gheg/README.md`](docs/gheg/README_JA.md)
 
 ---
 
@@ -295,7 +295,7 @@ ShapeMixer EntangleはFacial Animation専用ツールで、以下を提供しま
 
 Documentation:
 
-[`docs/se/README.md`](docs/se/README.md)
+[`docs/se/README.md`](docs/se/README_JA.md)
 
 ---
 

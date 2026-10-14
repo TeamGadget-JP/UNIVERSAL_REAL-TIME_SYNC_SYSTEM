@@ -145,7 +145,7 @@ G-HUB는 시스템의 중심입니다.
 
 문서:
 
-[`docs/g-hub/README.md`](docs/g-hub/README.md)
+[`docs/g-hub/README_KO.md`](docs/g-hub/README_KO.md)
 
 ---
 
@@ -174,7 +174,7 @@ GHEC_v1.0.2_Windows_x64.zip
 
 문서:
 
-[`docs/ghec/README.md`](docs/ghec/README.md)
+[`docs/ghec/README_KO.md`](docs/ghec/README_KO.md)
 
 ---
 
@@ -206,7 +206,7 @@ GHEU는 Unity 6.3 LTS를 기준으로 개발 및 검증되었습니다. 그 외 
 
 문서:
 
-[`docs/gheu/README.md`](docs/gheu/README.md)
+[`docs/gheu/README_KO.md`](docs/gheu/README_KO.md)
 
 ---
 
@@ -239,7 +239,7 @@ GHEB는 Blender 5.2 LTS를 기준으로 개발 및 검증되었습니다. 그 �
 
 문서:
 
-[`docs/gheb/README.md`](docs/gheb/README.md)
+[`docs/gheb/README_KO.md`](docs/gheb/README_KO.md)
 
 ---
 
@@ -271,7 +271,7 @@ GHEG 설정에는 Godot 측의 여러 Node와 Reference가 필요합니다. 전�
 
 문서:
 
-[`docs/gheg/README.md`](docs/gheg/README.md)
+[`docs/gheg/README_KO.md`](docs/gheg/README_KO.md)
 
 ---
 
@@ -295,7 +295,7 @@ ShapeMixer Entangle은 전용 Facial Animation Tool로 다음 기능을 제공�
 
 문서:
 
-[`docs/se/README.md`](docs/se/README.md)
+[`docs/se/README_KO.md`](docs/se/README_KO.md)
 
 ---
 

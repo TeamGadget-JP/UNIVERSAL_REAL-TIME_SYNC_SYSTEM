@@ -26,6 +26,9 @@
 >    Godot 4.7 .NET用Endpointです。  
 >    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。
 
+
+URSSのGHEBをフォークし、BlenderのAuto-Rig Pro（ARP）対応版を開発している方のリポジトリは[こちらへ](https://github.com/seonghyeone/Blender---cascaduer-)。
+
 ![TeamGadget Unity Workflow](docs/images/urss-top.png)
 
 現在のURSSスイートでは、以下の機能を提供しています。

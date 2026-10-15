@@ -26,7 +26,6 @@
 >    Godot 4.7 .NET용 Endpoint입니다.  
 >    **설치 방법:** 파일의 압축을 해제한 뒤 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하십시오.
 
-
 URSS의 GHEB를 포크하여 Blender Auto-Rig Pro(ARP) 대응 버전을 개발 중인 개발자의 저장소는 [여기](https://github.com/seonghyeone/Blender---cascaduer-)에서 확인할 수 있습니다.
 
 ![TeamGadget Unity Workflow](docs/images/urss-top.png)

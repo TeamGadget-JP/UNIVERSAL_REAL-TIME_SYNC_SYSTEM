@@ -26,7 +26,7 @@
 >    Godot 4.7 .NET Endpoint.  
 >    **How to install:** Unzip the file and manually place the folder into the designated plugin directory.
 
-
+### Community Extensions
 URSS GHEB fork with Blender Auto-Rig Pro (ARP) support by an independent developer: [here](https://github.com/seonghyeone/Blender---cascaduer-).
 
 ![TeamGadget Unity Workflow](docs/images/urss-top.png)

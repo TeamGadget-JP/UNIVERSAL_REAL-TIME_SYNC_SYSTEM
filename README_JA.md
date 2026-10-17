@@ -16,7 +16,7 @@
 >    **インストール方法:** ⚠️ **解凍しないでください。** `.zip` ファイルをダウンロードし、BlenderのAdd-on / Extension設定からそのままインストールしてください。
 >
 >## ゲームエンジン / DCCツール（解凍が必要）
->*   **[GHEC v1.0.2](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.0.2/GHEC_v1.0.2_Windows_x64.zip)**  
+>*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
 >    Cascadeur 2026.2用Endpointです。  
 >    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。
 >*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  

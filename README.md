@@ -3,7 +3,7 @@
 >[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases).
 >
 >## Standalone Applications (Unzip Required)
->*   **[G-HUB v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
+>*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
 >    Required for Universal Real-time Sync System.  
 >    **How to install:** Unzip the file. This is a standalone application.
 >*   **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  

@@ -16,7 +16,7 @@
 >    **How to install:** ⚠️ **DO NOT UNZIP.** Download the `.zip` file and install it directly via Blender's Add-on / Extension preferences.
 >
 >## Game Engines & DCC Tools (Unzip Required)
->*   **[GHEC v1.0.2](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.0.2/GHEC_v1.0.2_Windows_x64.zip)**  
+>*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
 >    Cascadeur 2026.2 Endpoint.  
 >    **How to install:** Unzip the file and manually place the folder into the designated plugin directory.
 >*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  

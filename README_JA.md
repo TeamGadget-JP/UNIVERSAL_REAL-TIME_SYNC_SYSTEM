@@ -3,7 +3,7 @@
 >[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
 >
 >## スタンドアロンアプリケーション（解凍が必要）
->*   **[G-HUB v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.0.0/G-HUB_v1.0_Windows_x64.zip)**  
+>*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
 >    Universal Real-Time Sync Systemの動作に必要です。  
 >    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
 >*   **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  

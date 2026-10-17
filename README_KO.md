@@ -16,7 +16,7 @@
 >    **설치 방법:** ⚠️ **압축을 해제하지 마십시오.** `.zip` 파일을 다운로드한 뒤 Blender의 Add-on / Extension 환경설정에서 그대로 설치하십시오.
 >
 >## 게임 엔진 및 DCC 도구 (압축 해제 필요)
->*   **[GHEC v1.0.2](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.0.2/GHEC_v1.0.2_Windows_x64.zip)**  
+>*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
 >    Cascadeur 2026.2용 Endpoint입니다.  
 >    **설치 방법:** 파일의 압축을 해제한 뒤 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하십시오.
 >*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  

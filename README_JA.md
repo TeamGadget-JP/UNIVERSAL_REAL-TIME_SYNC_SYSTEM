@@ -4,7 +4,8 @@
 >
 >Unity   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEU(Unity)\
 >Blender ワークフローなら GHEC(Cascadeur) + G-HUB + GHEB(Blender)\
->Godot   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEG(Godot)
+>Godot   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEG(Godot)\
+>ワークフローにフェイシャまで絡めるならShapeMixerEntangleも必要です。
 >
 >## スタンドアロンアプリケーション（解凍が必要）
 >*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  

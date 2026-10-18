@@ -2,8 +2,8 @@
 >
 >[リリースはこちら](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
 >
->Unity   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEU(Unity)
->Blender ワークフローなら GHEC(Cascadeur) + G-HUB + GHEB(Blender)
+>Unity   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEU(Unity)\
+>Blender ワークフローなら GHEC(Cascadeur) + G-HUB + GHEB(Blender)\
 >Godot   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEG(Godot)
 >
 >## スタンドアロンアプリケーション（解凍が必要）

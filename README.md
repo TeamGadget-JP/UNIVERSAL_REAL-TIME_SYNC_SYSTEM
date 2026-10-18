@@ -1,30 +1,42 @@
->## Downloads
 >
->[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases).
+> ## Download the Latest Version
 >
->## Standalone Applications (Unzip Required)
->*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
->    Required for Universal Real-time Sync System.  
->    **How to install:** Unzip the file. This is a standalone application.
->*   **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
->    Facial / Shape Key authoring Endpoint.  
->    **How to install:** Unzip the file. This is a standalone application.
+> [Go to Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
 >
->## Blender (⚠️ DO NOT UNZIP)
->*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
->    Blender 5.2LTS Endpoint.  
->    **How to install:** ⚠️ **DO NOT UNZIP.** Download the `.zip` file and install it directly via Blender's Add-on / Extension preferences.
+> Unity workflow: GHEC (Cascadeur) + G-HUB + GHEU (Unity)\
+> Blender workflow: GHEC (Cascadeur) + G-HUB + GHEB (Blender)\
+> Godot workflow: GHEC (Cascadeur) + G-HUB + GHEG (Godot)\
+> If your workflow also requires facial animation, ShapeMixer Entangle is needed.
 >
->## Game Engines & DCC Tools (Unzip Required)
->*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
->    Cascadeur 2026.2 Endpoint.  
->    **How to install:** Unzip the file and manually place the folder into the designated plugin directory.
->*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
->    Unity 6.3LTS Endpoint.  
->    **How to install:** Unzip (if compressed) and install via standard `.unitypackage` import.
->*   **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
->    Godot 4.7 .NET Endpoint.  
->    **How to install:** Unzip the file and manually place the folder into the designated plugin directory.
+> ## Standalone Applications (Extraction Required)
+>
+> * **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
+>   Required to run the Universal Real-Time Sync System.  
+>   **How to install:** Extract the ZIP file. This is a standalone application.
+>
+> * **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
+>   Endpoint for Facial / Shape Key authoring.  
+>   **How to install:** Extract the ZIP file. This is a standalone application.
+>
+> ## Blender Add-on (⚠️ DO NOT UNZIP)
+>
+> * **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
+>   Endpoint for Blender 5.2 LTS.  
+>   **How to install:** ⚠️ **DO NOT UNZIP.** Download the `.zip` file and install it directly through Blender's Add-on / Extension preferences.
+>
+> ## Game Engine / DCC Tool Plugins (Extraction Required)
+>
+> * **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
+>   Endpoint for Cascadeur 2026.2.  
+>   **How to install:** Extract the ZIP file and manually place the folder in the designated plugin directory.
+>
+> * **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
+>   Endpoint for Unity 6.3 LTS.  
+>   **How to install:** Extract if compressed, then import using the standard `.unitypackage` import procedure.
+>
+> * **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
+>   Endpoint for Godot 4.7 .NET.  
+>   **How to install:** Extract the ZIP file and manually place the folder in the designated plugin directory.
 
 >### Built with AI. Grown by Creators.
 >Most of URSS was developed through AI-assisted vibe coding.

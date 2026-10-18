@@ -15,7 +15,7 @@
 >    Facial / Shape Keyオーサリング用Endpointです。  
 >    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
 >
->## Blender Addon（⚠️ 解凍しないでください）
+>## Blender Add-on（⚠️ 解凍しないでください）
 >*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
 >    Blender 5.2 LTS用Endpointです。  
 >    **インストール方法:** ⚠️ **解凍しないでください。** `.zip` ファイルをダウンロードし、BlenderのAdd-on / Extension設定からそのままインストールしてください。

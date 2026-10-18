@@ -1,6 +1,10 @@
->## ダウンロード
+>## 最新版のダウンロード
 >
->[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
+>[リリースはこちら](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
+>
+>Unity   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEU(Unity)
+>Blender ワークフローなら GHEC(Cascadeur) + G-HUB + GHEB(Blender)
+>Godot   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEG(Godot)
 >
 >## スタンドアロンアプリケーション（解凍が必要）
 >*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
@@ -10,12 +14,12 @@
 >    Facial / Shape Keyオーサリング用Endpointです。  
 >    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
 >
->## Blender（⚠️ 解凍しないでください）
+>## Blender Addon（⚠️ 解凍しないでください）
 >*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
 >    Blender 5.2 LTS用Endpointです。  
 >    **インストール方法:** ⚠️ **解凍しないでください。** `.zip` ファイルをダウンロードし、BlenderのAdd-on / Extension設定からそのままインストールしてください。
 >
->## ゲームエンジン / DCCツール（解凍が必要）
+>## ゲームエンジン / DCCツール Plugin（解凍が必要）
 >*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
 >    Cascadeur 2026.2用Endpointです。  
 >    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。

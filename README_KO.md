@@ -1,30 +1,41 @@
->## 다운로드
+> ## 최신 버전 다운로드
 >
->[GitHub Releases](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases).
+> [릴리스 페이지 바로가기](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
 >
->## 독립 실행형 애플리케이션 (압축 해제 필요)
->*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.0.0_Windows_x64.zip)**  
->    Universal Real-Time Sync System을 사용하기 위해 필요합니다.  
->    **설치 방법:** 파일의 압축을 해제하십시오. 독립 실행형 애플리케이션입니다.
->*   **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
->    Facial / Shape Key 제작용 Endpoint입니다.  
->    **설치 방법:** 파일의 압축을 해제하십시오. 독립 실행형 애플리케이션입니다.
+> Unity 워크플로: GHEC (Cascadeur) + G-HUB + GHEU (Unity)\
+> Blender 워크플로: GHEC (Cascadeur) + G-HUB + GHEB (Blender)\
+> Godot 워크플로: GHEC (Cascadeur) + G-HUB + GHEG (Godot)\
+> 워크플로에 페이셜 애니메이션도 포함하려면 ShapeMixer Entangle이 필요합니다.
 >
->## Blender (⚠️ 압축 해제 금지)
->*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
->    Blender 5.2 LTS용 Endpoint입니다.  
->    **설치 방법:** ⚠️ **압축을 해제하지 마십시오.** `.zip` 파일을 다운로드한 뒤 Blender의 Add-on / Extension 환경설정에서 그대로 설치하십시오.
+> ## 독립 실행형 애플리케이션 (압축 해제 필요)
 >
->## 게임 엔진 및 DCC 도구 (압축 해제 필요)
->*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
->    Cascadeur 2026.2용 Endpoint입니다.  
->    **설치 방법:** 파일의 압축을 해제한 뒤 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하십시오.
->*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
->    Unity 6.3 LTS용 Endpoint입니다.  
->    **설치 방법:** 압축된 경우 압축을 해제한 뒤, 일반적인 `.unitypackage` 가져오기 방식으로 설치하십시오.
->*   **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
->    Godot 4.7 .NET용 Endpoint입니다.  
->    **설치 방법:** 파일의 압축을 해제한 뒤 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하십시오.
+> * **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
+>   Universal Real-Time Sync System을 실행하는 데 필요한 애플리케이션입니다.  
+>   **설치 방법:** ZIP 파일의 압축을 해제하세요. 별도의 설치 과정이 필요 없는 독립 실행형 애플리케이션입니다.
+>
+> * **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
+>   Facial / Shape Key 애니메이션 제작을 위한 엔드포인트입니다.  
+>   **설치 방법:** ZIP 파일의 압축을 해제하세요. 별도의 설치 과정이 필요 없는 독립 실행형 애플리케이션입니다.
+>
+> ## Blender 애드온 (⚠️ 압축 해제 금지)
+>
+> * **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
+>   Blender 5.2 LTS용 엔드포인트입니다.  
+>   **설치 방법:** ⚠️ **압축을 해제하지 마세요.** `.zip` 파일을 다운로드한 후 Blender의 Add-on / Extension 환경설정에서 그대로 설치하세요.
+>
+> ## 게임 엔진 / DCC 도구 플러그인 (압축 해제 필요)
+>
+> * **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
+>   Cascadeur 2026.2용 엔드포인트입니다.  
+>   **설치 방법:** ZIP 파일의 압축을 해제한 후 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하세요.
+>
+> * **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
+>   Unity 6.3 LTS용 엔드포인트입니다.  
+>   **설치 방법:** 압축된 경우 압축을 해제한 후 일반적인 `.unitypackage` 가져오기 절차를 통해 설치하세요.
+>
+> * **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
+>   Godot 4.7 .NET용 엔드포인트입니다.  
+>   **설치 방법:** ZIP 파일의 압축을 해제한 후 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하세요.
 
 >### AI로 만들어지고, 크리에이터와 함께 성장합니다.
 >URSS의 대부분은 AI를 활용한 바이브 코딩으로 개발되었습니다.

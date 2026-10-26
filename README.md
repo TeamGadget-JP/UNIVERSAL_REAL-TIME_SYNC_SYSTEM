@@ -37,26 +37,26 @@
    Endpoint for Godot 4.7 .NET.  
    **How to install:** Extract the ZIP file and manually place the folder in the designated plugin directory.
 
->### Built with AI. Grown by Creators.
->Most of URSS was developed through AI-assisted vibe coding.
->
->**But what does that really mean?**
->It means that software development is becoming something you can take part in even without a traditional background in programming.
->A creator's ideas, production experience, domain knowledge, and the thought “I wish I had a production environment like this” can all be starting points for software development.
->With URSS, you can freely improve the existing vanilla endpoints. Or you can develop an entirely new endpoint for a different DCC application.
->Rather than simply adapting your workflow to an environment built by someone else, **you can build a production environment of your own, tailored to the way you work.**
->URSS is a project intended to support those needs of creators.
->
->#### What URSS Provides
->URSS already offers the essential infrastructure for connecting multiple applications, including real-time communication, endpoint connection management, data routing, and timeline synchronization.
->You don't need to develop these systems from scratch.
->Give the AI agent you use the G-HUB technical documentation and the source code of a vanilla endpoint, and tell it what you want to achieve.
->From there, you can work with your AI agent to add the features you need, test how they work, and refine the result to suit your own production environment.
->Even without extensive programming experience, your knowledge of production tools and workflows can guide the development process.
->
->**URSS does not aim to deliver a finished product containing every possible feature.**
->
->**Its goal is to provide a shared foundation that creators can envision, build upon, and keep improving themselves.**
+### Built with AI. Grown by Creators.
+Most of URSS was developed through AI-assisted vibe coding.
+
+**But what does that really mean?**
+It means that software development is becoming something you can take part in even without a traditional background in programming.
+A creator's ideas, production experience, domain knowledge, and the thought “I wish I had a production environment like this” can all be starting points for software development.
+With URSS, you can freely improve the existing vanilla endpoints. Or you can develop an entirely new endpoint for a different DCC application.
+Rather than simply adapting your workflow to an environment built by someone else, **you can build a production environment of your own, tailored to the way you work.**
+URSS is a project intended to support those needs of creators.
+
+#### What URSS Provides
+URSS already offers the essential infrastructure for connecting multiple applications, including real-time communication, endpoint connection management, data routing, and timeline synchronization.
+You don't need to develop these systems from scratch.
+Give the AI agent you use the G-HUB technical documentation and the source code of a vanilla endpoint, and tell it what you want to achieve.
+From there, you can work with your AI agent to add the features you need, test how they work, and refine the result to suit your own production environment.
+Even without extensive programming experience, your knowledge of production tools and workflows can guide the development process.
+
+**URSS does not aim to deliver a finished product containing every possible feature.**
+
+**Its goal is to provide a shared foundation that creators can envision, build upon, and keep improving themselves.**
 
 ### Community Extensions
 URSS GHEB fork with Blender Auto-Rig Pro (ARP) support by an independent developer: [here](https://github.com/seonghyeone/Blender---cascaduer-).

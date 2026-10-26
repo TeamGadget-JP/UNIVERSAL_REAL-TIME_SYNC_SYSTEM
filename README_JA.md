@@ -1,55 +1,55 @@
->## 最新版のダウンロード
->
->[リリースはこちら](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
->
->Unity   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEU(Unity)\
->Blender ワークフローなら GHEC(Cascadeur) + G-HUB + GHEB(Blender)\
->Godot   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEG(Godot)\
->ワークフローにフェイシャまで絡めるならShapeMixerEntangleも必要です。
->
->## スタンドアロンアプリケーション（解凍が必要）
->*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
->    Universal Real-Time Sync Systemの動作に必要です。  
->    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
->*   **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
->    Facial / Shape Keyオーサリング用Endpointです。  
->    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
->
->## Blender Add-on（⚠️ 解凍しないでください）
->*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
->    Blender 5.2 LTS用Endpointです。  
->    **インストール方法:** ⚠️ **解凍しないでください。** `.zip` ファイルをダウンロードし、BlenderのAdd-on / Extension設定からそのままインストールしてください。
->
->## ゲームエンジン / DCCツール Plugin（解凍が必要）
->*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
->    Cascadeur 2026.2用Endpointです。  
->    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。
->*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
->    Unity 6.3 LTS用Endpointです。  
->    **インストール方法:** 圧縮されている場合は解凍し、通常の `.unitypackage` インポート手順で導入してください。
->*   **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
->    Godot 4.7 .NET用Endpointです。  
->    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。
+## 最新版のダウンロード
 
->## AIで作られ、クリエイターによって育つ。
->URSSの大部分は、AIを活用したバイブコーディングによって開発されました。
->**しかし、それが持つ本当の意味とは何でしょうか？**
->それは、ソフトウェア開発が、必ずしもプログラミングの専門知識を持つ人だけのものではなくなりつつある、ということです。
->クリエイターが持つアイデア、制作経験、専門知識。そして「こんな制作環境が欲しい」という思いが、ソフトウェア開発の出発点になります。
->URSSでは、既存のバニラEndpointを自由に改良しても構いません。あるいは、まったく別のDCCアプリケーションに対応する新しいEndpointを開発することもできます。
->誰かが用意した制作環境に自分のワークフローを合わせるだけでなく、**自分のワークフローに合わせた、自分だけの制作環境を作ることができます。**
->URSSは、そうしたクリエイターのニーズに応えるためのプロジェクトです。
->
->#### URSSが提供するもの
->URSSには、リアルタイム通信、Endpoint間の接続管理、データのルーティング、タイムライン同期など、複数のアプリケーションを連携させるための基本的な仕組みが、すでに用意されています。
->これらを一から開発する必要はありません。
->あなたがお使いのAIエージェントに、G-HUBの技術資料とバニラEndpointのソースコードを渡し、実現したいことを伝えてください。
->あとはAIエージェントと協力しながら、必要な機能を追加し、動作を検証し、自分の制作環境に合わせて仕上げていくことができます。
->プログラミングの経験が豊富でなくても、制作ツールやワークフローについての知識があれば、それを開発に活かすことができます。
->
->**URSSの目標は、あらゆる機能を備えた完成品を提供することではありません。**
->
->**クリエイター自身が考え、作り、改良し続けられる共通基盤を提供することです。**
+[リリースはこちら](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
+
+Unity   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEU(Unity)\
+Blender ワークフローなら GHEC(Cascadeur) + G-HUB + GHEB(Blender)\
+Godot   ワークフローなら GHEC(Cascadeur) + G-HUB + GHEG(Godot)\
+ワークフローにフェイシャルまで絡めるならShapeMixerEntangleも必要です。
+
+## スタンドアロンアプリケーション（解凍が必要）
+*   **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
+    Universal Real-Time Sync Systemの動作に必要です。  
+    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
+*   **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
+    Facial / Shape Keyオーサリング用Endpointです。  
+    **インストール方法:** ファイルを解凍してください。スタンドアロンアプリケーションです。
+
+## Blender Add-on（⚠️ 解凍しないでください）
+*   **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
+    Blender 5.2 LTS用Endpointです。  
+    **インストール方法:** ⚠️ **解凍しないでください。** `.zip` ファイルをダウンロードし、BlenderのAdd-on / Extension設定からそのままインストールしてください。
+
+## ゲームエンジン / DCCツール Plugin（解凍が必要）
+*   **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
+    Cascadeur 2026.2用Endpointです。  
+    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。
+*   **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
+    Unity 6.3 LTS用Endpointです。  
+    **インストール方法:** 圧縮されている場合は解凍し、通常の `.unitypackage` インポート手順で導入してください。
+*   **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
+    Godot 4.7 .NET用Endpointです。  
+    **インストール方法:** ファイルを解凍し、指定されたプラグインディレクトリへ手動で配置してください。
+
+## AIで作られ、クリエイターによって育つ。
+URSSの大部分は、AIを活用したバイブコーディングによって開発されました。
+**しかし、それが持つ本当の意味とは何でしょうか？**
+それは、ソフトウェア開発が、必ずしもプログラミングの専門知識を持つ人だけのものではなくなりつつある、ということです。
+クリエイターが持つアイデア、制作経験、専門知識。そして「こんな制作環境が欲しい」という思いが、ソフトウェア開発の出発点になります。
+URSSでは、既存のバニラEndpointを自由に改良しても構いません。あるいは、まったく別のDCCアプリケーションに対応する新しいEndpointを開発することもできます。
+誰かが用意した制作環境に自分のワークフローを合わせるだけでなく、**自分のワークフローに合わせた、自分だけの制作環境を作ることができます。**
+URSSは、そうしたクリエイターのニーズに応えるためのプロジェクトです。
+
+#### URSSが提供するもの
+URSSには、リアルタイム通信、Endpoint間の接続管理、データのルーティング、タイムライン同期など、複数のアプリケーションを連携させるための基本的な仕組みが、すでに用意されています。
+これらを一から開発する必要はありません。
+あなたがお使いのAIエージェントに、G-HUBの技術資料とバニラEndpointのソースコードを渡し、実現したいことを伝えてください。
+あとはAIエージェントと協力しながら、必要な機能を追加し、動作を検証し、自分の制作環境に合わせて仕上げていくことができます。
+プログラミングの経験が豊富でなくても、制作ツールやワークフローについての知識があれば、それを開発に活かすことができます。
+
+**URSSの目標は、あらゆる機能を備えた完成品を提供することではありません。**
+
+**クリエイター自身が考え、作り、改良し続けられる共通基盤を提供することです。**
 
 ### コミュニティによる拡張
 URSSのGHEBをフォークし、BlenderのAuto-Rig Pro（ARP）対応版を開発している方のリポジトリは[こちらへ](https://github.com/seonghyeone/Blender---cascaduer-)。

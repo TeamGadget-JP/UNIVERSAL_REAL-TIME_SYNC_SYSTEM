@@ -1,61 +1,61 @@
-> ## 최신 버전 다운로드
->
-> [릴리스 페이지 바로가기](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
->
-> Unity 워크플로: GHEC (Cascadeur) + G-HUB + GHEU (Unity)\
-> Blender 워크플로: GHEC (Cascadeur) + G-HUB + GHEB (Blender)\
-> Godot 워크플로: GHEC (Cascadeur) + G-HUB + GHEG (Godot)\
-> 워크플로에 페이셜 애니메이션도 포함하려면 ShapeMixer Entangle이 필요합니다.
->
-> ## 독립 실행형 애플리케이션 (압축 해제 필요)
->
-> * **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
->   Universal Real-Time Sync System을 실행하는 데 필요한 애플리케이션입니다.  
->   **설치 방법:** ZIP 파일의 압축을 해제하세요. 별도의 설치 과정이 필요 없는 독립 실행형 애플리케이션입니다.
->
-> * **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
->   Facial / Shape Key 애니메이션 제작을 위한 엔드포인트입니다.  
->   **설치 방법:** ZIP 파일의 압축을 해제하세요. 별도의 설치 과정이 필요 없는 독립 실행형 애플리케이션입니다.
->
-> ## Blender 애드온 (⚠️ 압축 해제 금지)
->
-> * **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
->   Blender 5.2 LTS용 엔드포인트입니다.  
->   **설치 방법:** ⚠️ **압축을 해제하지 마세요.** `.zip` 파일을 다운로드한 후 Blender의 Add-on / Extension 환경설정에서 그대로 설치하세요.
->
-> ## 게임 엔진 / DCC 도구 플러그인 (압축 해제 필요)
->
-> * **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
->   Cascadeur 2026.2용 엔드포인트입니다.  
->   **설치 방법:** ZIP 파일의 압축을 해제한 후 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하세요.
->
-> * **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
->   Unity 6.3 LTS용 엔드포인트입니다.  
->   **설치 방법:** 압축된 경우 압축을 해제한 후 일반적인 `.unitypackage` 가져오기 절차를 통해 설치하세요.
->
-> * **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
->   Godot 4.7 .NET용 엔드포인트입니다.  
->   **설치 방법:** ZIP 파일의 압축을 해제한 후 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하세요.
+ ## 최신 버전 다운로드
 
->### AI로 만들어지고, 크리에이터와 함께 성장합니다.
->URSS의 대부분은 AI를 활용한 바이브 코딩으로 개발되었습니다.
->**하지만 이것이 진정으로 의미하는 것은 무엇일까요?**
->소프트웨어 개발이 반드시 전문적인 프로그래밍 지식을 가진 사람만의 영역일 필요는 없어지고 있다는 뜻입니다.
->크리에이터의 아이디어와 제작 경험, 전문 지식, 그리고 '이런 제작 환경이 있으면 좋겠다'는 바람이 소프트웨어 개발의 출발점이 될 수 있습니다.
->URSS에서는 기존 바닐라 Endpoint를 자유롭게 개선할 수도 있고, 전혀 다른 DCC 애플리케이션을 위한 새로운 Endpoint를 개발할 수도 있습니다.
->누군가가 만들어 놓은 제작 환경에 자신의 작업 방식을 맞추는 데 그치지 않고, **자신의 워크플로에 맞는 나만의 제작 환경을 직접 만들 수 있습니다.**
->URSS는 이러한 크리에이터의 요구에 부응하기 위한 프로젝트입니다.
->
->#### URSS가 제공하는 것
->URSS에는 실시간 통신, Endpoint 간 연결 관리, 데이터 라우팅, 타임라인 동기화 등 여러 애플리케이션을 연동하기 위한 기본적인 구조가 이미 마련되어 있습니다.
->이러한 시스템을 처음부터 직접 개발할 필요는 없습니다.
->사용 중인 AI 에이전트에 G-HUB 기술 문서와 바닐라 Endpoint의 소스 코드를 제공하고, 무엇을 구현하고 싶은지 설명해 주세요.
->그다음에는 AI 에이전트와 협력하면서 필요한 기능을 추가하고, 동작을 검증하고, 자신의 제작 환경에 맞게 다듬어 나갈 수 있습니다.
->프로그래밍 경험이 많지 않더라도 제작 도구와 워크플로에 대한 지식이 있다면, 그 경험을 개발에 활용할 수 있습니다.
->
->**URSS의 목표는 생각할 수 있는 모든 기능을 갖춘 완제품을 제공하는 것이 아닙니다.**
->
->**크리에이터 스스로 구상하고, 만들고, 계속 개선해 나갈 수 있는 공통 기반을 제공하는 것입니다.**
+ [릴리스 페이지 바로가기](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases)
+
+ Unity 워크플로: GHEC (Cascadeur) + G-HUB + GHEU (Unity)\
+ Blender 워크플로: GHEC (Cascadeur) + G-HUB + GHEB (Blender)\
+ Godot 워크플로: GHEC (Cascadeur) + G-HUB + GHEG (Godot)\
+ 워크플로에 페이셜 애니메이션도 포함하려면 ShapeMixer Entangle이 필요합니다.
+
+ ## 독립 실행형 애플리케이션 (압축 해제 필요)
+
+ * **[G-HUB v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/g-hub-v1.1.0/G-HUB_v1.1.0_Windows_x64.zip)**  
+   Universal Real-Time Sync System을 실행하는 데 필요한 애플리케이션입니다.  
+   **설치 방법:** ZIP 파일의 압축을 해제하세요. 별도의 설치 과정이 필요 없는 독립 실행형 애플리케이션입니다.
+
+ * **[ShapeMixerEntangle v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/se-v1.0.0/ShapeMixer_Entangle_v1.0_Windows_x64.zip)**  
+   Facial / Shape Key 애니메이션 제작을 위한 엔드포인트입니다.  
+   **설치 방법:** ZIP 파일의 압축을 해제하세요. 별도의 설치 과정이 필요 없는 독립 실행형 애플리케이션입니다.
+
+ ## Blender 애드온 (⚠️ 압축 해제 금지)
+
+ * **[GHEB v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheb-v1.0.1/GHEB_v1_0_1_Blender5_2LTS.zip)**  
+   Blender 5.2 LTS용 엔드포인트입니다.  
+   **설치 방법:** ⚠️ **압축을 해제하지 마세요.** `.zip` 파일을 다운로드한 후 Blender의 Add-on / Extension 환경설정에서 그대로 설치하세요.
+
+ ## 게임 엔진 / DCC 도구 플러그인 (압축 해제 필요)
+
+ * **[GHEC v1.1.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/ghec-v1.1.0/GHEC_v1.1.0_Windows_x64.zip)**  
+   Cascadeur 2026.2용 엔드포인트입니다.  
+   **설치 방법:** ZIP 파일의 압축을 해제한 후 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하세요.
+
+ * **[GHEU v1.0.1](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheu-v1.0.1/GHEU_v1.0.1_6.3LTS.unitypackage)**  
+   Unity 6.3 LTS용 엔드포인트입니다.  
+   **설치 방법:** 압축된 경우 압축을 해제한 후 일반적인 `.unitypackage` 가져오기 절차를 통해 설치하세요.
+
+ * **[GHEG v1.0.0](https://github.com/TeamGadget-JP/UNIVERSAL_REAL-TIME_SYNC_SYSTEM/releases/download/gheg-v1.0.0/GHEG_v1.0.0_Godot4.7.NET_RELEASE.zip)**  
+   Godot 4.7 .NET용 엔드포인트입니다.  
+   **설치 방법:** ZIP 파일의 압축을 해제한 후 지정된 플러그인 디렉터리에 폴더를 수동으로 배치하세요.
+
+### AI로 만들어지고, 크리에이터와 함께 성장합니다.
+URSS의 대부분은 AI를 활용한 바이브 코딩으로 개발되었습니다.
+**하지만 이것이 진정으로 의미하는 것은 무엇일까요?**
+소프트웨어 개발이 반드시 전문적인 프로그래밍 지식을 가진 사람만의 영역일 필요는 없어지고 있다는 뜻입니다.
+크리에이터의 아이디어와 제작 경험, 전문 지식, 그리고 '이런 제작 환경이 있으면 좋겠다'는 바람이 소프트웨어 개발의 출발점이 될 수 있습니다.
+URSS에서는 기존 바닐라 Endpoint를 자유롭게 개선할 수도 있고, 전혀 다른 DCC 애플리케이션을 위한 새로운 Endpoint를 개발할 수도 있습니다.
+누군가가 만들어 놓은 제작 환경에 자신의 작업 방식을 맞추는 데 그치지 않고, **자신의 워크플로에 맞는 나만의 제작 환경을 직접 만들 수 있습니다.**
+URSS는 이러한 크리에이터의 요구에 부응하기 위한 프로젝트입니다.
+
+#### URSS가 제공하는 것
+URSS에는 실시간 통신, Endpoint 간 연결 관리, 데이터 라우팅, 타임라인 동기화 등 여러 애플리케이션을 연동하기 위한 기본적인 구조가 이미 마련되어 있습니다.
+이러한 시스템을 처음부터 직접 개발할 필요는 없습니다.
+사용 중인 AI 에이전트에 G-HUB 기술 문서와 바닐라 Endpoint의 소스 코드를 제공하고, 무엇을 구현하고 싶은지 설명해 주세요.
+그다음에는 AI 에이전트와 협력하면서 필요한 기능을 추가하고, 동작을 검증하고, 자신의 제작 환경에 맞게 다듬어 나갈 수 있습니다.
+프로그래밍 경험이 많지 않더라도 제작 도구와 워크플로에 대한 지식이 있다면, 그 경험을 개발에 활용할 수 있습니다.
+
+**URSS의 목표는 생각할 수 있는 모든 기능을 갖춘 완제품을 제공하는 것이 아닙니다.**
+
+**크리에이터 스스로 구상하고, 만들고, 계속 개선해 나갈 수 있는 공통 기반을 제공하는 것입니다.**
 
 ### 커뮤니티 확장 프로젝트
 URSS의 GHEB를 포크하여 Blender Auto-Rig Pro(ARP) 대응 버전을 개발 중인 개발자의 저장소는 [여기](https://github.com/seonghyeone/Blender---cascaduer-)에서 확인할 수 있습니다.
